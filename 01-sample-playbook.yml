@@ -1,8 +1,8 @@
 ---
 - name: Sample-Playbook
-  host:
+  hosts:
    - all
-  #host: all
+  #hosts: all
   tasks:
     - debug:
          msg: Hello World
