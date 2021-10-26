@@ -1,4 +1,4 @@
-- name: sample playbook
+-name: sample playbook
   host:
    - all
   #host: all
