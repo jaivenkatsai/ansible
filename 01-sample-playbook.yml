@@ -1,7 +1,7 @@
-name: sample playbook
-host:
+- name: Sample Playbook
+  host:
    - all
-#host: all
-tasks:
-- debug:
-msg: Hello World.
+  #host: all
+  tasks:
+    - debug:
+         msg: Hello World.
