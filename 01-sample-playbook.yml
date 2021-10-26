@@ -3,5 +3,5 @@
    - all
   #host: all
   tasks:
-    - debug:
-      msg: Hello World 
+   - debug:
+     msg: Hello World.
