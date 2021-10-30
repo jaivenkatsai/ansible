@@ -3,4 +3,5 @@
     - all
   tasks:
     - name: playbook from sample.yml
-      debug
+      debug:
+        msg: 
