@@ -4,4 +4,4 @@
   tasks:
     - name: Demp on Heloworld 
       debug:
-        msg:   Welcome to devopd world
+        msg: Welcome to devopd world
