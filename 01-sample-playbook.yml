@@ -1,5 +1,6 @@
 - name: Sample Holloworld Playboo
-  hosts: all
+  hosts: 
+    - all
   tasks:
     - name: Demp on Heloworld 
       debug:
