@@ -1,2 +1,4 @@
 - name: Sample Holloworld Playboo
-  hosts: 
+  hosts: all
+  tasks:
+  
