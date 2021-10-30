@@ -2,4 +2,5 @@
   hosts:
     - all
   tasks:
-    - name: playbook from sample
+    - name: playbook from sample.yml
+      debug
