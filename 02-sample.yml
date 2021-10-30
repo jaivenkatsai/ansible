@@ -4,4 +4,4 @@
   tasks:
     - name: playbook from sample.yml
       debug:
-        msg: 
+        msg: hello sai
