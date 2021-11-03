@@ -1,3 +1,4 @@
  - name: Hello form ROLe
    debug:
-     msg: Hello from ROLe 
+     msg: Hello from ROLe
+      
