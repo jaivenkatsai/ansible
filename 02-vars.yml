@@ -1,4 +1,5 @@
 - name: Demo on Varibles
   hosts: all
   vars: 
-    URL: goog
+    URL: google.com
+    
