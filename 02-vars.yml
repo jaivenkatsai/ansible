@@ -4,4 +4,4 @@
     URL: google.com
   tasks: 
 - name: Print a Variable
-  de
+  debug: 
