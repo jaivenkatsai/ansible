@@ -3,4 +3,5 @@
   vars: 
     URL: google.com
   tasks: 
-- name: Print a Varible
+- name: Print a Variable
+  de
