@@ -1,6 +1,6 @@
-- name: Demo on Varibles
+- name: Demo on Variables
   hosts: all
   vars: 
     URL: google.com
   tasks: 
-- name: Print a Vari
+- name: Print a Varible
