@@ -5,4 +5,4 @@
   tasks: 
 - name: Print a Variable
   debug: 
-    msg: URL = {{}}
+    msg: URL = {{URL}}
