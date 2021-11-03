@@ -5,3 +5,4 @@
   tasks: 
 - name: Print a Variable
   debug: 
+    msg: URL
