@@ -1,6 +1,6 @@
-- name: Sample Holloworld Playboo
+- name: Sample Holloworld Playbook
   hosts: all
   tasks:
-    - name: Demp on Heloworld 
+    - name: Demo on Heloworld 
       debug:
         msg: Welcome to devopd world
