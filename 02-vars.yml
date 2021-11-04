@@ -2,7 +2,7 @@
   hosts: all
   vars: 
     URL1: play.google.com
-  vars_fiels
+  vars_fiels:
   
   tasks:
     - name: Print a Variable from play
