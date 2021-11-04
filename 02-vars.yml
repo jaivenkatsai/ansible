@@ -2,7 +2,7 @@
   hosts: all
   vars: 
     URL1: play.google.com
-    URL: play
+    URL: play.google.com
   vars_files:
     - vars.yml
   tasks:
