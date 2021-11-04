@@ -24,4 +24,5 @@
       debug:
         msg: URL = {{URL5}}
     - name: Show Variable Precedence
-    
+      vars: 
+      
