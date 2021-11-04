@@ -12,4 +12,5 @@
       debug:
         msg: URL =={{URL2}}
     - name: Demo on task level variable
+      vars:
       
