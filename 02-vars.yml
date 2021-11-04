@@ -3,7 +3,7 @@
   vars: 
     URL1: play.google.com
   vars_fiels:
-    
+    - vars.yml
   tasks:
     - name: Print a Variable from play
       debug:
