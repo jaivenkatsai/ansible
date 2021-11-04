@@ -1,7 +1,7 @@
 - name: Demo on Variables
   hosts: all
   vars: 
-    URL: google.com
+    URL: file.google.com
   tasks:
     - name: Print a Variable
       debug:
