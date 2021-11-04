@@ -17,4 +17,4 @@
       debug:
         msg: URL = {{URL3}}
     - name: Print Variable from host file
-      
+      debug
