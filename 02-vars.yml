@@ -8,4 +8,4 @@
          msg: URL = {{URL}}
     - name: Print a Variable from File
       debgu:
-        msg: URL ==
+        msg: URL =={{URL2}}
