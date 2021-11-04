@@ -20,4 +20,5 @@
       debug: 
         msg: URL = {{URL4}}
     - name: Print Variable from CLI
-      debi
+      debug:
+        msg: 
