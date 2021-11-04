@@ -3,6 +3,6 @@
   vars: 
     URL1: play.google.com
   tasks:
-    - name: Print a Variable
+    - name: Print a Variable from pal
       debug:
          msg: URL = {{URL}}
