@@ -21,4 +21,4 @@
         msg: URL = {{URL4}}
     - name: Print Variable from CLI
       debug:
-        msg: 
+        msg: URL = {{URL5}}
