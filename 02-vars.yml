@@ -15,4 +15,4 @@
       vars:
       URL3: tasks.google.com
       debug:
-        msg: URL = {{}}
+        msg: URL = {{URL3}}
