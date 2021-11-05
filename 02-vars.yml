@@ -35,4 +35,5 @@
       shell: uptime
       register: out
     - name: Print uptime output
-      debug  
+      debug:
+        msg
