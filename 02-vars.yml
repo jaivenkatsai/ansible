@@ -32,4 +32,5 @@
       debug:
         msg: OS = {{ansible_distribution}}
     - name: Run a shell command and store output
-      shell: uptime  
+      shell: uptime
+        
