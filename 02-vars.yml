@@ -36,4 +36,4 @@
       register: out
     - name: Print uptime output
       debug:
-        msg: ""
+        msg: "{{out}}"
