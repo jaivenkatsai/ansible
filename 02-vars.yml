@@ -37,3 +37,8 @@
     - name: Print uptime output
       debug:
         msg: "{{out.stdout}}"
+    -name: print OUTPUT
+     debug:
+       msg: "{{OUTPUT}}"
+  roles:
+    - demo:
