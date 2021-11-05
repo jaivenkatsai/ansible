@@ -34,4 +34,5 @@
     - name: Run a shell command and store output
       shell: uptime
       register: out
-    - name: Print uptime variable  
+    - name: Print uptime output
+      debug  
