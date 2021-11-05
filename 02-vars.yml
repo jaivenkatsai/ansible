@@ -29,4 +29,5 @@
       debug: 
         msg: URL = {{URL}} 
     - name: Print Fact Variables
-      debug
+      debug: 
+      
