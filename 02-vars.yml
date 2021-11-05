@@ -30,5 +30,5 @@
         msg: URL = {{URL}} 
     - name: Print Fact Variable
       debug: 
-        msg: OS = {{ansible distribution}}
+        msg: OS = {{ansible_distribution}}
     
