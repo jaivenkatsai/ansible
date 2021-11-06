@@ -1,3 +1,4 @@
 - name: RoboShop Project setup - Frontend
   hosts: FRONTEND
-  
+  roles:
+    - frontend
