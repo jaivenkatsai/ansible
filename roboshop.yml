@@ -28,6 +28,16 @@
   roles:
     - cart
 
+- name: RoboShop Project setup - MySQL
+  hosts: MYSQL
+  roles:
+    - mysql
+
+- name: RoboShop Project setup - Shipping
+  hosts: SHIPPING
+  roles:
+    - shipping
+
 - name: RoboShop Project setup - Frontend
   hosts: FRONTEND
   roles:
