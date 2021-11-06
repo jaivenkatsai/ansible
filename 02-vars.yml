@@ -39,8 +39,4 @@
         msg: "{{out.stdout}}"
     
     
-    -name: print OUTPUT
-     debug:
-       msg: "{{OUTPUT}}"
-  roles:
-    - demo:
+    -name:
