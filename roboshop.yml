@@ -12,3 +12,13 @@
   hosts: CATALOGUE
   roles:
     - catalogue
+
+- name: RoboShop Project setup - Redis
+  hosts: REDIS
+  roles:
+    - redis
+
+- name: RoboShop Project setup - Frontend
+  hosts: FRONTEND
+  roles:
+    - frontend
