@@ -2,4 +2,6 @@
   debug:
     msg: Hello from ROLe
 
-- name: print URL      
+- name: print URL
+  DEBUG:
+          
