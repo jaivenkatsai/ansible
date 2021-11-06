@@ -47,5 +47,5 @@
       debug:
         msg: "{{OUTPUT}}"
 
-  roles: Print jsut an another 
+  roles: Print jsut an another role
     - demo
