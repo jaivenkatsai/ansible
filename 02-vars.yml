@@ -43,4 +43,4 @@
       set_fact:
         OUTPUT: "{{out.stdout}}"
 
-    - name: Print
+    - name: Print OUTPUT
