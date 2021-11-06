@@ -45,4 +45,4 @@
 
     - name: Print OUTPUT
       debug:
-      
+        msg: "{{}}"
