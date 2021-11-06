@@ -38,7 +38,7 @@
   roles:
     - shipping
 
-- name: RoboShop Project setup - Frontend
-  hosts: FRONTEND
+- name: RoboShop Project setup - RabbitMQ
+  hosts: RABBITMQ
   roles:
-    - frontend
+    - rabbitmq
