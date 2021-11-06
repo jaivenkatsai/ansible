@@ -18,6 +18,16 @@
   roles:
     - redis
 
+- name: RoboShop Project setup - User
+  hosts: USER
+  roles:
+    - user
+
+- name: RoboShop Project setup - Cart
+  hosts: CART
+  roles:
+    - cart
+
 - name: RoboShop Project setup - Frontend
   hosts: FRONTEND
   roles:
