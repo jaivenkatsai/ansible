@@ -41,4 +41,4 @@
     
     - name: Declare a variable/fact 
       set_fact:
-        OUTPUT: "{{}}"
+        OUTPUT: "{{out.}}"
