@@ -2,8 +2,13 @@
   hosts: FRONTEND
   roles:
     - frontend
+
 - name: RoboShop Project setup - MongoDB
   hosts: MONGODB
   roles:
     - mongodb
-    - 
+
+- name: RoboShop Project setup - Catalogue
+  hosts: CATALOGUE
+  roles:
+    - catalogue
