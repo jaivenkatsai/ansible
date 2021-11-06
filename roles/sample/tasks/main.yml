@@ -3,5 +3,6 @@
     msg: Hello from ROLe
 
 - name: print URL
-  DEBUG:
-          
+  debug
+  ;
+        
