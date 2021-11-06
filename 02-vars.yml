@@ -39,4 +39,5 @@
         msg: "{{out.stdout}}"
     
     
-    - name: Declare a Variable/fact 
+    - name: Declare a variable/fact 
+    
