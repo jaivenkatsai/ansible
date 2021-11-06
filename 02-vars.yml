@@ -47,5 +47,5 @@
       debug:
         msg: "{{OUTPUT}}"
 
-roles:
+  roles:
     - demo
