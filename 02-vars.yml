@@ -42,3 +42,5 @@
     - name: Declare a variable/fact 
       set_fact:
         OUTPUT: "{{out.stdout}}"
+
+    
