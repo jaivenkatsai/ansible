@@ -42,3 +42,8 @@
   hosts: RABBITMQ
   roles:
     - rabbitmq
+
+- name: RoboShop Project setup - Payment
+  hosts: PAYMENT
+  roles:
+    - payment
