@@ -39,4 +39,4 @@
         msg: "{{out.stdout}}"
     
     
-    - name: D 
+    - name: Declare a Vari 
