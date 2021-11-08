@@ -36,12 +36,13 @@
 
 - name: RoboShop Project setup - MySQL
   hosts: MYSQL
-  
+  tags: mysql
   roles:
     - mysql
 
 - name: RoboShop Project setup - Shipping
   hosts: SHIPPING
+  tags
   roles:
     - shipping
 
