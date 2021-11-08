@@ -1,11 +1,12 @@
 - name: RoboShop Project setup - Frontend
   hosts: FRONTEND
-  tags: 
+  tags: frontend
   roles:
     - frontend
 
 - name: RoboShop Project setup - MongoDB
   hosts: MONGODB
+  
   roles:
     - mongodb
 
