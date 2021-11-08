@@ -42,12 +42,13 @@
 
 - name: RoboShop Project setup - Shipping
   hosts: SHIPPING
-  tags
+  tags: shipping
   roles:
     - shipping
 
 - name: RoboShop Project setup - RabbitMQ
   hosts: RABBITMQ
+  tags:
   roles:
     - rabbitmq
 
