@@ -5,7 +5,7 @@
       debug:
         msg: CentOS
       tags:
-        
+        - centos
 
     - name: Ubuntu
       debug:
