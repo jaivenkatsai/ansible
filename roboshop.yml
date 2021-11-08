@@ -30,6 +30,7 @@
 
 - name: RoboShop Project setup - Cart
   hosts: CART
+  tags:
   roles:
     - cart
 
