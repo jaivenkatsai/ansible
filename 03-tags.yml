@@ -3,4 +3,5 @@
   tasks: 
     - name: CentOS
       debug:
-        msg: 
+        msg: CentOS
+        
