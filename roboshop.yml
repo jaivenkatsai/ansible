@@ -12,6 +12,7 @@
 
 - name: RoboShop Project setup - Catalogue
   hosts: CATALOGUE
+  tags:
   roles:
     - catalogue
 
