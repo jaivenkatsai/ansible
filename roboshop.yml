@@ -24,7 +24,7 @@
 
 - name: RoboShop Project setup - User
   hosts: USER
-  
+  tags: user
   roles:
     - user
 
