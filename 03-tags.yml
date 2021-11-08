@@ -1,4 +1,3 @@
 - name: Demo on tasks tag
   host: all
-  tasks: all
-- name: CentOS
+  tasks: all- name: CentOS
