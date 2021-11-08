@@ -12,12 +12,13 @@
 
 - name: RoboShop Project setup - Catalogue
   hosts: CATALOGUE
-  tags:
+  tags: catalogue
   roles:
     - catalogue
 
 - name: RoboShop Project setup - Redis
   hosts: REDIS
+  
   roles:
     - redis
 
