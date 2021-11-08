@@ -6,7 +6,7 @@
 
 - name: RoboShop Project setup - MongoDB
   hosts: MONGODB
-  
+  tags: mongodb
   roles:
     - mongodb
 
