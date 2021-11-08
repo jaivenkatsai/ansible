@@ -18,7 +18,7 @@
 
 - name: RoboShop Project setup - Redis
   hosts: REDIS
-  
+  tags: redis
   roles:
     - redis
 
