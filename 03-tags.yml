@@ -11,4 +11,4 @@
       debug:
         msg: Ubuntu
       tags:
-        - Ubuntu
+        - ubuntu
