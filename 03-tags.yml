@@ -7,4 +7,4 @@
 
     - name: Ubuntu
       debug:
-        msg
+        msg: Ubuntu
