@@ -2,4 +2,4 @@
   host: all
   tasks: 
     - name: CentOS
-    
+      debug
