@@ -1,5 +1,5 @@
 - name: Demo on tasks tag
-  host: all
+  hosts: all
   tasks: 
     - name: CentOS
       debug:
