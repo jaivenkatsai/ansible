@@ -48,11 +48,12 @@
 
 - name: RoboShop Project setup - RabbitMQ
   hosts: RABBITMQ
-  tags:
+  tags: rabbitmq
   roles:
     - rabbitmq
 
 - name: RoboShop Project setup - Payment
   hosts: PAYMENT
+  
   roles:
     - payment
