@@ -6,3 +6,5 @@
         msg: CentOS
 
     - name: Ubuntu
+      debug:
+        msg
