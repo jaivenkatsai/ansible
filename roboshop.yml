@@ -21,7 +21,8 @@
 
 - name: RoboShop Project setup - Redis
   hosts: REDIS
-  tags: redisbecome: eys
+  tags: redis
+  
   roles:
     - redis
 
