@@ -29,7 +29,7 @@
 - name: RoboShop Project setup - User
   hosts: USER
   tags: user
-  become:yes
+  become: yes
   roles:
     - user
 
