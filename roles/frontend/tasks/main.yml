@@ -4,3 +4,4 @@
     state: present
 
 - name: Download Frontend Archive
+  ansible.
