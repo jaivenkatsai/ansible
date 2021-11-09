@@ -7,4 +7,5 @@
       register: out
       become: yes
 
-    - nqme
+    - name: Print
+    
