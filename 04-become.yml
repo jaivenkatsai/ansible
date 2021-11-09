@@ -1,3 +1,4 @@
 - name: Demo on Become sudo
   hosts: all
-  #become
+  #become: yes
+  ta
