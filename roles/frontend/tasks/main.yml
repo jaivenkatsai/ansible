@@ -4,4 +4,4 @@
     state: present
 
 - name: Download Frontend Archive
-  ansible.builtin
+  ansible.builtin.unarchive:
