@@ -8,4 +8,4 @@
       become: yes
 
     - name: Print
-    
+      debug:
