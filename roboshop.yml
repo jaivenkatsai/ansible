@@ -22,13 +22,14 @@
 - name: RoboShop Project setup - Redis
   hosts: REDIS
   tags: redis
-  
+  become: yes
   roles:
     - redis
 
 - name: RoboShop Project setup - User
   hosts: USER
   tags: user
+  
   roles:
     - user
 
