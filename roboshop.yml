@@ -57,6 +57,7 @@
 - name: RoboShop Project setup - RabbitMQ
   hosts: RABBITMQ
   tags: rabbitmq
+  become: yes
   roles:
     - rabbitmq
 
