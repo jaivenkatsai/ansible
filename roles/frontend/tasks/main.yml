@@ -3,4 +3,4 @@
     name: nginx
     state: present
 
-- name: Download F
+- name: Download Frontend Archive
