@@ -36,13 +36,14 @@
 - name: RoboShop Project setup - Cart
   hosts: CART
   tags: cart
-  
+  become: yes
   roles:
     - cart
 
 - name: RoboShop Project setup - MySQL
   hosts: MYSQL
   tags: mysql
+  become:
   roles:
     - mysql
 
