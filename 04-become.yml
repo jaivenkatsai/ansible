@@ -4,3 +4,4 @@
   tasks:
     - name: Get ID  of user
       shell: id
+      register
