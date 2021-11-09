@@ -50,6 +50,7 @@
 - name: RoboShop Project setup - Shipping
   hosts: SHIPPING
   tags: shipping
+  become: yes
   roles:
     - shipping
 
