@@ -29,13 +29,14 @@
 - name: RoboShop Project setup - User
   hosts: USER
   tags: user
-  
+  become:yes
   roles:
     - user
 
 - name: RoboShop Project setup - Cart
   hosts: CART
   tags: cart
+  
   roles:
     - cart
 
