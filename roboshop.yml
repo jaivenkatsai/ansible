@@ -1,6 +1,7 @@
 - name: RoboShop Project setup - Frontend
   hosts: FRONTEND
   tags: frontend
+  become: yes
   roles:
     - frontend
 
