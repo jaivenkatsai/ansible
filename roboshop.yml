@@ -8,13 +8,14 @@
 - name: RoboShop Project setup - MongoDB
   hosts: MONGODB
   tags: mongodb
-  become: 
+  become: yes
   roles:
     - mongodb
 
 - name: RoboShop Project setup - Catalogue
   hosts: CATALOGUE
   tags: catalogue
+  become: yes
   roles:
     - catalogue
 
