@@ -9,4 +9,4 @@
 
     - name: Print
       debug: 
-        msg: "{{}}"
+        msg: "{{out}}"
