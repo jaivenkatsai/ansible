@@ -19,3 +19,4 @@
     src: /tmp/frontend-main/static
     dest: /usr/share/nginx/htm
     remote_src: yes
+    
