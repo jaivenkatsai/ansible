@@ -14,7 +14,7 @@
     path: /usr/share/nginx/html
     state: absent
 
-- name: Copy Extracted content to Nginx path
+- name: Copy Extracted Content to Nginx path
   ansible.builtin.copy:
     src: /tmp/frontend-main/static
     dest: /usr/share/nginx/html
