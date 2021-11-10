@@ -8,3 +8,4 @@
     src: "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
     dest: /tmp
     remote_src: yes
+    
