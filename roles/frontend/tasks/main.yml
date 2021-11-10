@@ -13,3 +13,5 @@
   ansible.builtin.file:
   path: /user/share/nginx/html
   state: absent
+
+name: 
