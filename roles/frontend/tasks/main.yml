@@ -11,4 +11,4 @@
 
 - name: Remove old content
   ansible.builtin.file:
-    path: /usr/share/nginx
+    path: /usr/share/nginx/html
