@@ -11,4 +11,4 @@
 
 - name: Remove old content
   ansible.builtin.file:
-  path:
+  path:/
