@@ -5,4 +5,4 @@
 
 - name: Download Frontend Archive
   ansible.builtin.unarchive:
-    src: "http"
+    src: "httphttps://github.com/roboshop-devops-project/frontend/archive/main.zip"
