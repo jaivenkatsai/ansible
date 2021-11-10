@@ -16,4 +16,4 @@
 
 - name: copy Extracted Content to Nginx path
   ansible.builtin.copy:
-  src
+  src: /tmp/
