@@ -9,6 +9,6 @@
     dest: /tmp
     remote_src: yes
 
-- name: Remove old contenthome/
+- name: Remove old contenthome
   ansible.builtin.file:
   path: /user/
