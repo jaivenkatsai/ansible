@@ -10,3 +10,4 @@
     remote_src: yes
 
 - name: Remove old content
+  ansible
