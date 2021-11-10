@@ -14,4 +14,4 @@
     path: /usr/share/nginx/html
     state: absent
 
-- name: Copy Extracted 
+- name: Copy Extracted content to ngin
