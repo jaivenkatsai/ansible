@@ -20,4 +20,4 @@
     dest: /usr/share/nginx/html/
     remote_src: yes
 
-- name: Copy Roboshop
+- name: Copy Roboshop Config File
