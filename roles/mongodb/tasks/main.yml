@@ -12,7 +12,7 @@
   ansible.builtin.replace:
   path: /etc/mongod.conf
   regexp: '127.0.0.1'
-  re
+  replace: '0.0.0.0'
 
 
 #Install Mongo & Start Service.
