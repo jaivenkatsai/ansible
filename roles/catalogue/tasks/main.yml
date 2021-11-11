@@ -7,4 +7,5 @@
     state: present
 
 - name: Create Roboshop App User
-  user
+  user:
+name: 
