@@ -5,7 +5,8 @@
      
 - name: Install MongoDB
   yum:
-    name: 
+    name: mongodb-org
+    stste
 
 
 #Install Mongo & Start Service.
