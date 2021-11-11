@@ -20,4 +20,5 @@
   ansible.builtin.file:
     path: /home/roboshop/catalogue
     state: absent
-    
+
+- name: 
