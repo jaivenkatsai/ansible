@@ -11,4 +11,5 @@
    name: roboshop
 
 - name: Catalogue App Archive
-  ansibli.builtin
+  ansibli.builtin.unarchive:
+  
