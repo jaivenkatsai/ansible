@@ -14,4 +14,4 @@
   ansibli.builtin.unarchive:
     src: "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
     dest: /tmp
-    remote
+    remote_src: yes
