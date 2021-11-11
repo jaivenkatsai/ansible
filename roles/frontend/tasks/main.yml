@@ -19,7 +19,7 @@
     src: /tmp/frontend-main/static/
     dest: /usr/share/nginx/html/
     remote_src: yes
-
+f
 - name: Copy Roboshop Config File
   copy: 
     src: roboshop.con
