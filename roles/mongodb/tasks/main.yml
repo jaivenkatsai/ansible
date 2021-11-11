@@ -32,7 +32,8 @@
     idempotent: yes
 
 - name: Load Scheme - Users
-  community.mongodb.mongodb_
+  community.mongodb.mongodb_shell:
+    file: 
 
 
 
