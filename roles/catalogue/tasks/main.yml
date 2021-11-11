@@ -21,4 +21,4 @@
     path: /home/roboshop/catalogue
     state: absent
 
-- name: Copy Extracted Content to 
+- name: Copy Extracted Content to Catalogue 
