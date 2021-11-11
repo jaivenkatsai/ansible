@@ -4,7 +4,8 @@
     dest: /etc/yum.repos.d/mongodb.repo
      
 - name: Install MongoDB
-  yum
+  yum:
+    
 
 
 #Install Mongo & Start Service.
