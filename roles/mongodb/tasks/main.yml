@@ -31,6 +31,8 @@
   file: "/tmp/mongodb-main/catalogue.js"
   idempotent: yes
 
+
+
 #Install Mongo & Start Service.
 # yum install -y mongodb-org 
 # systemctl enable mongod
