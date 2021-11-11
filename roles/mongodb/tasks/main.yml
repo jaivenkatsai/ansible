@@ -26,7 +26,7 @@
     dest: /tmp
     remote_src: yes
 
-- anme: 
+- name: 
 
 
 #Install Mongo & Start Service.
