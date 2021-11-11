@@ -33,7 +33,7 @@
 
 - name: Load Scheme - Users
   community.mongodb.mongodb_shell:
-    file: 
+    file: "/tmp/mongodb"
 
 
 
