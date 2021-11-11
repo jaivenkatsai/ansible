@@ -26,3 +26,8 @@
     src: /tmp/catalogue-main/
     dest: /home/roboshop/catalogue/
     remote_src: tes
+- name: Copy Extracted Content to Catalogue Path
+  ansible.builtin.copy:
+    src: /tmp/catalogue-main/
+    dest: /home/roboshop/catalogue/
+    remote_src: yes
