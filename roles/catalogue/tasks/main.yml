@@ -16,4 +16,4 @@
     dest: /tmp
     remote_src: yes
 
-- name
+- name: Remove Old content
