@@ -27,4 +27,4 @@
      
 - name: Restart Nginx
   systemd:
-  
+  name:
