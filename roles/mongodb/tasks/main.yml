@@ -20,7 +20,7 @@
     state: started
     eanbled: yes
 
-- name: Downlaod Mongo
+- name: Downlaod MongoDB Schema
 
 
 #Install Mongo & Start Service.
