@@ -15,7 +15,8 @@
   replace: '0.0.0.0'
 
 - name: Start MongoDB Service
-  system
+  systemd:
+    name
 
 
 #Install Mongo & Start Service.
