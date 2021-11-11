@@ -29,7 +29,7 @@
 - name: Load Schema - Catalogue
   community.mongodb.mongodb_shell:
   file: "/tmp/mongodb-main/catalogue.js"
-  idempoent
+  idempotent
 
 #Install Mongo & Start Service.
 # yum install -y mongodb-org 
