@@ -21,6 +21,7 @@
     eanbled: yes
 
 - name: Downlaod MongoDB Schema
+  ansible
 
 
 #Install Mongo & Start Service.
