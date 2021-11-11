@@ -18,7 +18,7 @@
   systemd:
     name: mongod
     state: started
-    eanbled: yes
+    enabled: yes
 
 - name: Downlaod MongoDB Schema
   ansible.builtin.unarchive:
