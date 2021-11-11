@@ -26,7 +26,8 @@
     dest: /tmp
     remote_src: yes
 
-- name: Load Schema
+- name: Load Schema - Catalogue
+  
 
 
 #Install Mongo & Start Service.
