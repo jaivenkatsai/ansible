@@ -23,7 +23,8 @@
 - name: Downlaod MongoDB Schema
   ansible.builtin.unarchive:
     src: "https://github.com/roboshop-devops-project/mongodb/archive/main.zip"
-    dest:
+    dest: /tmp
+    
 
 
 #Install Mongo & Start Service.
