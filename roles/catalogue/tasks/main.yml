@@ -21,4 +21,4 @@
     path: /home/roboshop/catalogue
     state: absent
 
-- name: 
+- name: Copy Extracted Con
