@@ -21,7 +21,7 @@
     eanbled: yes
 
 - name: Downlaod MongoDB Schema
-  ansible.builtin 
+  ansible.builtin
 
 
 #Install Mongo & Start Service.
