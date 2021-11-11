@@ -22,4 +22,5 @@
     state: absent
 
 - name: Copy Extracted Content to Catalogue Path
-  ansibli
+  ansibli.builtin.copy:
+  
