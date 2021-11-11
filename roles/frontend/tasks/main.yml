@@ -21,3 +21,4 @@
     remote_src: yes
 
 - name: Copy Roboshop Config File
+  copy: 
