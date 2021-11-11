@@ -25,3 +25,4 @@
     src: roboshop.con
     dest: /etc/nginx/default.d/roboshop.conf
      
+- name: Restat
