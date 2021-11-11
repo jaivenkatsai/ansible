@@ -23,4 +23,4 @@
 - name: Copy Roboshop Config file
   copy: 
     src: roboshop.con
-    dest: /etc/
+    dest: /etc/nginx/default.
