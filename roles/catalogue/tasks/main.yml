@@ -23,5 +23,5 @@
 
 - name: Copy Extracted Content to Catalogue Path
   ansibli.builtin.copy:
-    src: /tmp/roboshop/catalogue
+    src: /tmp//catalogue
     dest: /home/
