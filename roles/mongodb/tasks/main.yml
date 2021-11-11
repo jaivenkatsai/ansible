@@ -11,7 +11,7 @@
 - name: Update MongoDB Listen Address
   ansible.builtin.replace:
   path: /etc/mongod.conf
-  regexp: ''
+  regexp: '127.o.o.1'
 
 
 #Install Mongo & Start Service.
