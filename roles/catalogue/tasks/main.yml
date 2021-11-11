@@ -10,7 +10,7 @@
   user:
    name: roboshop
 
-- name: Catalogue App Archive
+- name:  Catalogue App Archive
   ansibli.builtin.unarchive:
     src: "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
     dest: /tmp
