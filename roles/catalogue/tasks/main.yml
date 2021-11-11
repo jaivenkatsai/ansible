@@ -24,4 +24,4 @@
 - name: Copy Extracted Cobtent to Catalogue Path
   ansible.builtin.copy:
     src: /tmp/catalogue-main/
-    dest
+    dest: /home/
