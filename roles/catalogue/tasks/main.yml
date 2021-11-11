@@ -6,4 +6,4 @@
       - gcc-c++
     state: present
 
-- name: Create Ro
+- name: Create Roboshop App User
