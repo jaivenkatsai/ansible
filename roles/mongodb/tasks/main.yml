@@ -10,7 +10,7 @@
 
 - name: Update MongoDB Listen Address
   ansible.builtin.replace:
-  path: 
+  path: /etc/mongod.conf
 
 
 #Install Mongo & Start Service.
