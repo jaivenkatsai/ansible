@@ -8,4 +8,6 @@
 
 - name: Create Roboshop App User
   user:
-   name: roboshop 
+   name: roboshop
+
+- name 
