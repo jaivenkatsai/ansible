@@ -28,8 +28,10 @@
 
 - name: Load Schema - Catalogue
   community.mongodb.mongodb_shell:
-  file: "/tmp/mongodb-main/catalogue.js"
-  idempotent: yes
+    file: "/tmp/mongodb-main/catalogue.js"
+    idempotent: yes
+
+    
 
 
 
