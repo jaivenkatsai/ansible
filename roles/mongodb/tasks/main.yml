@@ -3,7 +3,8 @@
     src: mongodb repo
     dest: /etc/yum.repos.d/mongodb.repo
      
-- name: Install 
+- name: Install MongoDB
+
 
 
 #Install Mongo & Start Service.
