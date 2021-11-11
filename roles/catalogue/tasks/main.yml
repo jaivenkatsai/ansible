@@ -2,4 +2,4 @@
   yum:
     name: 
       - NodeJS
-      
+      - make
