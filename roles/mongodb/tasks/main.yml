@@ -15,13 +15,13 @@
   replace: '0.0.0.0'
 
 - name: Start MongoDB Service
-  systemd:
+  sys.temd:
     name: mongod
     state: started
     eanbled: yes
 
 - name: Downlaod MongoDB Schema
-  ansible
+  ansible.builtin 
 
 
 #Install Mongo & Start Service.
