@@ -23,5 +23,5 @@
 
 - name: Copy Extracted Content to Catalogue Path
   ansibli.builtin.copy:
-    src: /tmp//catalogue
+    src: /tmp/catalogue-main/
     dest: /home/
