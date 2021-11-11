@@ -21,4 +21,4 @@
     path: /home/roboshop/catalogue
     state: absent
 
-- name: Copy Extracted Cobtent to Cta
+- name: Copy Extracted Cobtent to Catalogue Path
