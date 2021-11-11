@@ -15,7 +15,7 @@
   replace: '0.0.0.0'
 
 - name: Start MongoDB Service
-  temd:
+  systemd:
     name: mongod
     state: started
     eanbled: yes
