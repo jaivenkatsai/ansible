@@ -5,4 +5,5 @@
       - make 
       - gcc-c++
     state: present
-    
+
+- name: C
