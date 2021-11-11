@@ -30,4 +30,4 @@
     group: roboshop
 
 - name: Install NodeJS Dependencies
-  
+  community.
