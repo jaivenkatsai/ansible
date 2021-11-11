@@ -17,4 +17,4 @@
     remote_src: yes
 
 - name: Remove old content
-  an
+  ansible.builtin.file
