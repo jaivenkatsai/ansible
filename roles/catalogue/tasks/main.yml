@@ -1,7 +1,7 @@
 - name: Install NodeJS
   yum:
     name: 
-      - NodeJS
+      - NodeJSbuilt.
       - make 
       - gcc-c++
     state: present
@@ -11,4 +11,4 @@
    name: roboshop
 
 - name: Catalogue App Archive
-  an 
+  ansibli. 
