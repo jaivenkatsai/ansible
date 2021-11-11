@@ -22,4 +22,4 @@
 
 - name: Copy Roboshop Config File
   copy: 
-  
+    src: roboshop.con
