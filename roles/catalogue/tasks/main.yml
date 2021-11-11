@@ -18,4 +18,5 @@
 
 - name: Remove old content
   ansible.builtin.file:
-    path: /home/roboshop/ct
+    path: /home/roboshop/catalogue
+    st
