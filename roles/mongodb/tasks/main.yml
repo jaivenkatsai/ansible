@@ -27,7 +27,7 @@
     remote_src: yes
 
 - name: Load Schema - Catalogue
-  community
+  community.mongodb
 
 
 #Install Mongo & Start Service.
