@@ -28,6 +28,7 @@
 
 - name: Load Schema - Catalogue
   community.mongodb.mongodb_shell:
+  file"
 
 
 #Install Mongo & Start Service.
