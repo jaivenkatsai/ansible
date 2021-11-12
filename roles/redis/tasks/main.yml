@@ -5,7 +5,7 @@
 
 - name: INstall Redis
   yum:
-    name: Redis
+    name: redis
     enablerepo: remi
     state: present
 
