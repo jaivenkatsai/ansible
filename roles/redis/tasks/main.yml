@@ -12,3 +12,4 @@
 - name: Update Redis Listen Address
   ansible.builtin.replace:
     path: /etc/redis.conf
+    regexp: 
