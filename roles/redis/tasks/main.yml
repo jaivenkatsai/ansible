@@ -3,7 +3,7 @@
     name: http://rpms.remirepo.net/enterprise/remi-release-7.rpm 
     state: present
 
-- name: Istall Redis
+- name: INstall Redis
   yum:
     name: Redis
     enablerepo: remi
