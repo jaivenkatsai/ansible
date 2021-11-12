@@ -44,4 +44,4 @@
     name: catalogue
     state: restarted
     enabled: yes
-    demon reload: yes
+    deamon reload: yes
