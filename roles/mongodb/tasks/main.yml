@@ -43,4 +43,4 @@
 
 - name: Start Catalogue Service
   systemd:
-     
+    name: catalogue
