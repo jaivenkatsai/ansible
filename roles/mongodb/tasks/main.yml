@@ -37,4 +37,4 @@
     idempotent: yes
 
 - name: Setup Catalogue Service File
-  
+  copy:
