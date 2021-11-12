@@ -4,3 +4,5 @@
     state: present
 
 - name: Install Redis
+  yum:
+  
