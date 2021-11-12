@@ -42,4 +42,5 @@
     dest: /etc/systemd/system/catalogue.service
 
 - name: Start Catalogue Service
-  systemd
+  systemd:
+     
