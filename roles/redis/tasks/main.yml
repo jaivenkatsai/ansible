@@ -9,4 +9,5 @@
     enablerepo: remi
     state: present
 
-- name: Update Redis Listen A
+- name: Update Redis Listen Address
+  
