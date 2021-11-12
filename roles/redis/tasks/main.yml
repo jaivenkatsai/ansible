@@ -19,4 +19,4 @@
   systemd:
     name: redis
     enabled: yes
-    state
+    state: started
