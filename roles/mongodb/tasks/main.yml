@@ -39,4 +39,4 @@
 - name: Setup Catalogue Service File
   copy:
     src: systemd.service
-    dest:/etc/systemd
+    dest: /etc/systemd
