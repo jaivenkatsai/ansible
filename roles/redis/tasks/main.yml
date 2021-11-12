@@ -18,4 +18,4 @@
 - name: Start Redis Service
   systemd:
     name:redis
-    
+    enabled:
