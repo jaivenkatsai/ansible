@@ -51,5 +51,5 @@
     name: mariadb-libs
     state: absent
     
-- name: is
+- name: install MySQL Server
  
