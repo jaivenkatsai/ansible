@@ -47,4 +47,6 @@
     dest: /etc/yum.repos.d/mysql
 
 - name: Remove mariadb-libs package
+  yum: 
+    
  
