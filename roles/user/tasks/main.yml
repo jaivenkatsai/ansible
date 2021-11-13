@@ -1,0 +1,47 @@
+- name: Install NodeJS
+  yum:
+    name: 
+      - nodejs
+      - make 
+      - gcc-c++
+    state: present
+
+- name: Create Roboshop App User
+  user:
+   name: roboshop
+
+- name: Download Catalogue App Archive
+  ansible.builtin.unarchive:
+    src: "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
+    dest: /tmp
+    remote_src: yes
+
+- name: Remove old content
+  ansible.builtin.file:
+    path: /home/roboshop/catalogue
+    state: absent
+
+- name: Copy Extracted Content to catalogue Path
+  ansible.builtin.copy:
+    src: /tmp/catalogue-main/
+    dest: /home/roboshop/catalogue
+    remote_src: yes
+    owner: roboshop
+    group: roboshop
+
+- name: Install NodeJS Dependencies
+  community.general.npm:
+    path: /home/roboshop/catalogue
+  become_user: roboshop
+
+- name: Setup Catalogue Service File
+  copy:
+    src: systemd.service
+    dest: /etc/systemd/system/catalogue.service
+
+- name: Start Catalogue Service
+  systemd:
+    name: catalogue
+    state: restarted
+    enabled: yes
+    daemon_reload: yes
