@@ -27,8 +27,8 @@ Run the following SQL commands to remove the password policy.
 Setup Needed for Application.
 As per the architecture diagram, MySQL is needed by
 
-Shipping Service
-So we need to load that schema into the database, So those applications will detect them and run accordingly.
+#Shipping Service
+#So we need to load that schema into the database, So those applications will detect them and run accordingly.
 
 #To download schema, Use the following command
 
