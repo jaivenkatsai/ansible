@@ -43,7 +43,7 @@
 
 - name: Copy MySQL Repo
   copy:
-    src: mysql.repo
+    src: my
     dest: /etc/yum.repos.d/mysql.repo
 
 - name: Remove mariadb-libs package
