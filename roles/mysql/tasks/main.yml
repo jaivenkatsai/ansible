@@ -64,4 +64,4 @@
     
 - name: grab default password
   shell: grap 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
-  register: default_pass$
+  register: default_pass
