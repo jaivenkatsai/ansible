@@ -3,7 +3,7 @@
   vars: 
     OS: centos
   tasks:
-    - name: centOS
+    - name: CentOS
       degug:
         msg: CentOS
       when: OS == "centos"
