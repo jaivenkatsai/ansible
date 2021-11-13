@@ -24,4 +24,5 @@
     - name: If Bool1 is rtue
       debug:
         msg: Bool1 is True
-      when: BOOL1
+      #when: BOOL1
+      when: 
