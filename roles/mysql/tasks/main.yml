@@ -71,6 +71,6 @@
     src: reset.sql
     dest: /tmp/reset.sql
 
-- name: Reset 
+- name: Reset MySQL password
 
  
