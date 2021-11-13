@@ -2,6 +2,7 @@
   hosts: localhost
   vars: 
     OS: centos
+    NUM: 7
   tasks:
     - name: centos 
       debug:
