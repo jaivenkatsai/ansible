@@ -1,1 +1,1 @@
-ALERT USER ''
+ALERT USER 'root'@
