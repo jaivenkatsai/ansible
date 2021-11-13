@@ -21,7 +21,7 @@
       debug:
         msg: Num Con 1
       when: NUM <= 5
-    - name: If Bool1 is True
+    - name: If Bool1 is rtue
       debug:
-        msg: Bool1 is true
+        msg: Bool1 is True
       when: BOOL1
