@@ -7,4 +7,4 @@
       degug:
         msg: centOS
         when: OS == CentOS
-   - NMAE
+    - naame
