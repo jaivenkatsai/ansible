@@ -3,7 +3,7 @@
   vars: 
     OS: centos
     NUM: 7
-    
+    BOOL1: 
   tasks:
     - name: centos 
       debug:
