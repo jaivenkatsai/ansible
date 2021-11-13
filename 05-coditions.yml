@@ -2,4 +2,4 @@
   hosts: localhost
   vars: 
     OS: centos
-    
+  tasks:
