@@ -6,4 +6,4 @@
     - name: centOS
       degug:
         msg: centOS
-        when: OSM 
+        when: OS
