@@ -59,5 +59,6 @@
 - name: Start MySQL SErvice
   systemd:
     name: mysqld
-    
+    state: started
+    enabled
  
