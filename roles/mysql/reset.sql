@@ -1,1 +1,1 @@
-ALERT USER 'root'@'localhost' 
+ALERT USER 'root'@'localhost' IDENTIFIED BY
