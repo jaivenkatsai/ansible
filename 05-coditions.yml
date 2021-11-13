@@ -1,3 +1,4 @@
 - name: Demo on conditions
   hosts: localhost
-  
+  vars: 
+    OS
