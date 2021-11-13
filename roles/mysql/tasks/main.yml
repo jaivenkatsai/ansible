@@ -63,5 +63,5 @@
     enabled: yes
     
 - name: grab default password
-  shell: grap 'A temporary password' /var/log/mysqld.log | awk 'print '
+  shell: grap 'A temporary password' /var/log/mysqld.log | awk {print}
  
