@@ -41,4 +41,4 @@
 # mysql -u root -pRoboShop@1 <shipping.sql
 
 
--name
+-name: Copy MySQL
