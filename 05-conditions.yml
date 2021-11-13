@@ -4,7 +4,7 @@
     OS: centos
   tasks:
     - name: CentOS
-      degug:
+      debug:
         msg: CentOS
       when: OS == "centos"
     - name: Ubuntu
