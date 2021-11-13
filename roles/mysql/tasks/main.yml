@@ -54,5 +54,5 @@
 - name: install MySQL Server
   yum:
     name: mysql-community-server
-    s
+    state: present
  
