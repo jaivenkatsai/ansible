@@ -4,11 +4,11 @@ baseurl=http://repo.mysql.com/yum/mysql-5.7-community/el/7/$basearch/
 enabled=1
 gpgcheck=0' > /etc/yum.repos.d/mysql.repo
 
-Install MySQL
+#Install MySQL
 # yum remove mariadb-libs -y 
 # yum install mysql-community-server -y 
 
-Start MySQL.
+#Start MySQL.
 # systemctl enable mysqld 
 # systemctl start mysqld
 
