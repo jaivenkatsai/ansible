@@ -46,5 +46,5 @@
     src: mysql.repo
     dest: /etc/yum.repos.d/mysql
 
-- name: Remove mariadb-libs paka
+- name: Remove mariadb-libs package
  
