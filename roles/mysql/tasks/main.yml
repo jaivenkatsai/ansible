@@ -68,6 +68,7 @@
 
 - name: Reset SQL file
   copy: 
-    src: reset
+    src: reset.sql
+    dest
 
  
