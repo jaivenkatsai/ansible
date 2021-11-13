@@ -14,4 +14,4 @@
       when: OS == "ubuntu"
     - name: Number condition - 1
       debug: 
-        msg:
+        msg: Num Con 1
