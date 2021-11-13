@@ -1,1 +1,1 @@
-ALERT USER 'root'@'loc'
+ALERT USER 'root'@'localhost' 
