@@ -21,27 +21,27 @@
     path: /home/roboshop/cart
     state: absent
 
-- name: Copy Extracted Content to catalogue Path
+- name: Copy Extracted Content to cart Path
   ansible.builtin.copy:
-    src: /tmp/catalogue-main/
-    dest: /home/roboshop/catalogue
+    src: /tmp/cart-main/
+    dest: /home/roboshop/cart
     remote_src: yes
     owner: roboshop
     group: roboshop
 
 - name: Install NodeJS Dependencies
   community.general.npm:
-    path: /home/roboshop/catalogue
+    path: /home/roboshop/cart
   become_user: roboshop
 
-- name: Setup Catalogue Service File
+- name: Setup cart Service File
   copy:
     src: systemd.service
-    dest: /etc/systemd/system/catalogue.service
+    dest: /etc/systemd/system/cart.service
 
-- name: Start Catalogue Service
+- name: Start cart Service
   systemd:
-    name: catalogue
+    name: cart
     state: restarted
     enabled: yes
     daemon_reload: yes
