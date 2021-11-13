@@ -68,6 +68,6 @@
 
 - name: Reset SQL file
   copy: 
-    
+    src: reset
 
  
