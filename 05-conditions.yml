@@ -23,4 +23,4 @@
       when: NUM <= 5
     - name: If bool1 is true
       debug:
-        msg: 
+        msg: bool1 is true
