@@ -65,4 +65,11 @@
 - name: grab default password
   shell: grap 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
   register: default_pass
-  
+
+- name: Reset SQL file
+  copy: 
+    src: reset.sql
+    dest: /tmp/reset.sql
+
+- name: Reset MySQL Password
+  shell: mysql --connect-expired-password -u root -p"
