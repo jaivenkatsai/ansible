@@ -63,5 +63,5 @@
     enabled: yes
     
 - name: grab default password
-  shell: grap 'A '
+  shell: grap 'A temporary'
  
