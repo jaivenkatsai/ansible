@@ -10,7 +10,7 @@
   user:
    name: roboshop
 
-- name: Download Catalogue App Archive
+- name: Download cart App Archive
   ansible.builtin.unarchive:
     src: "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
     dest: /tmp
