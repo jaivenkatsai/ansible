@@ -53,5 +53,5 @@
     
 - name: install MySQL Server
   yum:
-    name
+    name: yum 
  
