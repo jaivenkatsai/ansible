@@ -62,5 +62,6 @@
     state: started
     enabled: yes
     
-- name: grab default p
+- name: grab default password
+  shell
  
