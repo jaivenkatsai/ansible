@@ -18,7 +18,7 @@
 
 - name: Remove old content
   ansible.builtin.file:
-    path: /home/roboshop/catalogue
+    path: /home/roboshop/user
     state: absent
 
 - name: Copy Extracted Content to catalogue Path
