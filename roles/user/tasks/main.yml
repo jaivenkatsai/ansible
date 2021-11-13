@@ -39,9 +39,9 @@
     src: systemd.service
     dest: /etc/systemd/system/user.service
 
-- name: Start Catalogue Service
+- name: Start user Service
   systemd:
-    name: catalogue
+    name: user
     state: restarted
     enabled: yes
     daemon_reload: yes
