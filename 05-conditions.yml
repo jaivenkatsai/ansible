@@ -15,4 +15,4 @@
     - name: Number condition - 1
       debug: 
         msg: Num Con 1
-      when: NUM 
+      when: NUM >= 5
