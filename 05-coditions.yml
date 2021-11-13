@@ -10,4 +10,4 @@
     - name: Ubuntu
       debug: 
         msg: Ubuntu
-        when: OS == ubuntu
+        when: OS == "ubuntu"
