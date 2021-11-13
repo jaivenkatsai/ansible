@@ -5,4 +5,5 @@
   tasks:
     - name: centOS
       degug:
-        msg: cent
+        msg: centOS
+        
