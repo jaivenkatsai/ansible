@@ -34,10 +34,10 @@
     path: /home/roboshop/user
   become_user: roboshop
 
-- name: Setup Catalogue Service File
+- name: Setup user Service File
   copy:
     src: systemd.service
-    dest: /etc/systemd/system/catalogue.service
+    dest: /etc/systemd/system/user.service
 
 - name: Start Catalogue Service
   systemd:
