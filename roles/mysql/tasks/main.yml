@@ -48,5 +48,5 @@
 
 - name: Remove mariadb-libs package
   yum: 
-    
+    name: mariadb-libs
  
