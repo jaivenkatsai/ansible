@@ -41,7 +41,7 @@
 # mysql -u root -pRoboShop@1 <shipping.sql
 
 
-- name: Copy 
+- name: Copy mysql repo
   copy: 
     src: mysql.repo
     dest: /etc/yum.repos.d/mysql
