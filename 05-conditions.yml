@@ -3,7 +3,7 @@
   vars: 
     OS: centos
   tasks:
-    - name: CentOS
+    - nmae
       debug:
         msg: CentOS
       when: OS == "centos"
