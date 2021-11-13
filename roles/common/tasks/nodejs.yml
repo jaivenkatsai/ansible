@@ -10,38 +10,38 @@
   user:
    name: roboshop
 
-- name: Download "{{COMPONENT}}" App Archive
+- name: Download cart App Archive
   ansible.builtin.unarchive:
-    src: "https://github.com/roboshop-devops-project/"{{COMPONENT}}"/archive/main.zip"
+    src: "https://github.com/roboshop-devops-project/cart/archive/main.zip"
     dest: /tmp
     remote_src: yes
 
 - name: Remove old content
   ansible.builtin.file:
-    path: /home/roboshop/"{{COMPONENT}}"
+    path: /home/roboshop/cart
     state: absent
 
-- name: Copy Extracted Content to "{{COMPONENT}}" Path
+- name: Copy Extracted Content to cart Path
   ansible.builtin.copy:
-    src: /tmp/"{{COMPONENT}}"-main/
-    dest: /home/roboshop/"{{COMPONENT}}"
+    src: /tmp/cart-main/
+    dest: /home/roboshop/cart
     remote_src: yes
     owner: roboshop
     group: roboshop
 
 - name: Install NodeJS Dependencies
   community.general.npm:
-    path: /home/roboshop/"{{COMPONENT}}"
+    path: /home/roboshop/cart
   become_user: roboshop
 
-- name: Setup "{{COMPONENT}}" Service File
+- name: Setup cart Service File
   copy:
     src: systemd.service
-    dest: /etc/systemd/system/"{{COMPONENT}}".service
+    dest: /etc/systemd/system/cart.service
 
-- name: Start "{{COMPONENT}}" Service
+- name: Start cart Service
   systemd:
-    name: "{{COMPONENT}}"
+    name: cart
     state: restarted
     enabled: yes
     daemon_reload: yes
