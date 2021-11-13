@@ -69,6 +69,6 @@
 - name: Reset SQL file
   copy: 
     src: reset.sql
-    dest: 
+    dest: /tmp/reset.sq
 
  
