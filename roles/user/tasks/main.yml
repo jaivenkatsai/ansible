@@ -21,7 +21,7 @@
     path: /home/roboshop/user
     state: absent
 
-- name: Copy Extracted Content to catalogue Path
+- name: Copy Extracted Content to user Path
   ansible.builtin.copy:
     src: /tmp/catalogue-main/
     dest: /home/roboshop/catalogue
