@@ -72,4 +72,4 @@
     dest: /tmp/reset.sql
 
 - name: Reset MySQL Password
-  shell: mysql --connect-expired-password -u root -p"$
+  shell: mysql --connect-expired-password -u root -p"${DEFAULT_PASSWORD}
