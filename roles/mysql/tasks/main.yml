@@ -50,4 +50,5 @@
   yum: 
     name: mariadb-libs
     state: absent
+    
  
