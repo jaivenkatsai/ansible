@@ -3,4 +3,4 @@
   vars: 
     OS: centos
   tasks:
-    - name: 
+    - name: centOS
