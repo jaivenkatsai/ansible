@@ -12,13 +12,13 @@
 
 - name: Download cart App Archive
   ansible.builtin.unarchive:
-    src: "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
+    src: "https://github.com/roboshop-devops-project/cart/archive/main.zip"
     dest: /tmp
     remote_src: yes
 
 - name: Remove old content
   ansible.builtin.file:
-    path: /home/roboshop/catalogue
+    path: /home/roboshop/cart
     state: absent
 
 - name: Copy Extracted Content to catalogue Path
