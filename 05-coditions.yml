@@ -6,7 +6,7 @@
     - name: centOS
       degug:
         msg: CentOS
-        when: OS == "CentOS"
+        when: OS == "centos"
     - name: Ubuntu
       debug: 
         msg: Ubuntu
