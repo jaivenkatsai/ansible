@@ -52,4 +52,6 @@
     state: absent
     
 - name: install MySQL Server
+  yum:
+    name
  
