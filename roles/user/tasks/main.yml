@@ -23,8 +23,8 @@
 
 - name: Copy Extracted Content to user Path
   ansible.builtin.copy:
-    src: /tmp/catalogue-main/
-    dest: /home/roboshop/catalogue
+    src: /tmp/user-main/
+    dest: /home/roboshop/user
     remote_src: yes
     owner: roboshop
     group: roboshop
