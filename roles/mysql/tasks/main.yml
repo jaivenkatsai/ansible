@@ -24,8 +24,8 @@ You can check the new password working or not using the following command.
 
 Run the following SQL commands to remove the password policy.
 > uninstall plugin validate_password;
-Setup Needed for Application.
-As per the architecture diagram, MySQL is needed by
+#Setup Needed for Application.
+#As per the architecture diagram, MySQL is needed by
 
 #Shipping Service
 #So we need to load that schema into the database, So those applications will detect them and run accordingly.
