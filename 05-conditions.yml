@@ -22,3 +22,5 @@
         msg: Num Con 1
       when: NUM <= 5
     - name: If bool1 is true
+      debug:
+        msg: 
