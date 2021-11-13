@@ -41,10 +41,10 @@
 # mysql -u root -pRoboShop@1 <shipping.sql
 
 
-- name: Copy mysql repo
-  copy: 
+- name: Copy MySQL Repo
+  copy:
     src: mysql.repo
-    dest: /etc/yum.repos.d/mysql
+    dest: /etc/yum.repos.d/mysql.repo
 
 - name: Remove mariadb-libs package
   yum: 
