@@ -12,4 +12,5 @@
       debug: 
         msg: Ubuntu
       when: OS == "ubuntu"
-    - name: Nume
+    - name: Number condition - 1
+    
