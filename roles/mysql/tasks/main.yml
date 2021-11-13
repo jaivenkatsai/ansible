@@ -53,5 +53,6 @@
     
 - name: install MySQL Server
   yum:
-    name: mysql-community-ser
+    name: mysql-community-server
+    s
  
