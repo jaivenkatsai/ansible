@@ -31,7 +31,7 @@
 
 - name: Install NodeJS Dependencies
   community.general.npm:
-    path: /home/roboshop/catalogue
+    path: /home/roboshop/user
   become_user: roboshop
 
 - name: Setup Catalogue Service File
