@@ -6,4 +6,4 @@
     - name: centOS
       degug:
         msg: centOS
-        when: OS ==CentOS
+        when: OS == CentOS
