@@ -5,8 +5,8 @@
   tasks:
     - name: centOS
       degug:
-        msg: centOS
-        when: OS == "Cento"
+        msg: CentOS
+        when: OS == "CentOS"
     - name: Ubuntu
       debug: 
         msg: Ubuntu
