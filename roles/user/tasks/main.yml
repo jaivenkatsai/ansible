@@ -12,7 +12,7 @@
 
 - name: Download user App  Archive
   ansible.builtin.unarchive:
-    src: "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
+    src: "https://github.com/roboshop-devops-project/user/archive/main.zip"
     dest: /tmp
     remote_src: yes
 
