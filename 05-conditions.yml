@@ -24,3 +24,4 @@
     - name: If bool1 is true
       debug:
         msg: bool1 is true
+        when: BOOL1
