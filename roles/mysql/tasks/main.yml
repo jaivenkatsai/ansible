@@ -66,6 +66,7 @@
   shell: grap 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
   register: default_pass
 
-- name: Reset SQL f
+- name: Reset SQL file
+  
 
  
