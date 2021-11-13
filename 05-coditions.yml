@@ -4,4 +4,4 @@
     OS: centos
   tasks:
     - name: centOS
-      degug
+      degug:
