@@ -18,4 +18,4 @@
       when: NUM >= 5
     - name: Number Condition - 2
       debug:
-        msg: 
+        msg: NUM <=
