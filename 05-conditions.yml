@@ -25,4 +25,4 @@
       debug:
         msg: Bool1 is True
       #when: BOOL1
-      when: 
+      when: BOOL1 | bool
