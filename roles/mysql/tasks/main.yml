@@ -67,6 +67,7 @@
   register: default_pass
 
 - name: Reset SQL file
-  
+  copy: 
+    
 
  
