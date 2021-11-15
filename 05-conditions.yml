@@ -35,4 +35,4 @@
     - name: Multiple Stsatements, AND
       debug:
         msg: AND Statement
-      when: NUM >= 5  
+      when: NUM >= 5 and BOOL1  
