@@ -27,7 +27,7 @@
       #when: BOOL1
       when: BOOL1 | bool
 
-    - name: Multiple Statements, AND
+    - name: Multiple Statements, OR
       debug: 
         msg: Either or Statement
       when: NUM >= 5 or BOOL1 | bool
