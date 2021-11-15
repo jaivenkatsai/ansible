@@ -76,6 +76,7 @@
   copy: 
     src: reset.sql
     dest: /tmp/reset.sql
+   when: out.rc != 0
 
 - name: reset MySQL Password
   shell: mysql --connect-expired-password -u root -p"${DEFAULT_PASSWORD}" </tmp/reset.sql
