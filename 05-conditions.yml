@@ -32,6 +32,6 @@
         msg: Either or Statement
       when: NUM >= 5 or BOOL1 | bool
 
-    - name: 
+    - name: Multiple Stsatement
 
     
