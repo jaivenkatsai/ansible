@@ -63,7 +63,7 @@
     enabled: yes
 
 - name:  Check the password reset status
-  shell: 'show databases' | ysql -uroot -pRoboShop@1
+  shell: 'show databases' | MySQKL -uroot -pRoboShop@1
   register: out
 
 - name: Print
