@@ -26,3 +26,5 @@
         msg: Bool1 is True
       #when: BOOL1
       when: BOOL1 | bool
+
+    - name
