@@ -65,7 +65,7 @@
 - name: Check the Password reset status
   shell: echo 'show databases' | mysql -uroot -pRoboShop@1
   register: out
-  when: 
+  
    
 - name: grab default password
   shell: grap 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
