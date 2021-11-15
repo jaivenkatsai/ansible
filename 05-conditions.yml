@@ -35,4 +35,4 @@
     - name: Multiple Stsatements, AND
       debug:
         msg: AND Statement
-      when:  
+      when: NUM  
