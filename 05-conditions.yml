@@ -30,4 +30,4 @@
     - name: Multiple Statements, AND
       debug: 
         msg: AND Statement
-      when: NUM >= 5 and BOOL1 |  bool
+      when: NUM >= 5 and BOOL1 | bool
