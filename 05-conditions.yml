@@ -34,7 +34,6 @@
 
     - name: Multiple Stsatements, AND
       debug:
-        msg:
-      when: AND Statement
+        msg: AND Statement
 
     
