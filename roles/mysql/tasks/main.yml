@@ -66,10 +66,7 @@
   shell: echo 'show databases' | mysql -uroot -pRoboShop@1
   register: out
 
-- name: Print
-  debug: 
-    msg: "{{out}}"
-    
+   
 - name: grab default password
   shell: grap 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
   register: default_pass
