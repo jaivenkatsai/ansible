@@ -65,6 +65,7 @@
 - name: Check the Password reset status
   shell: echo 'show databases' | mysql -uroot -pRoboShop@1
   register: out
+  ignore_errors: yes
   
    
 - name: grab default password
