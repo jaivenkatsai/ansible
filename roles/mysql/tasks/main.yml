@@ -63,7 +63,7 @@
     enabled: yes
 
 - name:  Check the password reset status
-  shell: 'show database' | mysql -uroot -pRoboshop
+  shell: 'show database' | mysql -uroot -pRoboShop
     
 - name: grab default password
   shell: grap 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
