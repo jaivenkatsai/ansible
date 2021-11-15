@@ -62,7 +62,8 @@
     state: started
     enabled: yes
 
-- name:  Check 
+- name:  Check the password reset status
+
     
 - name: grab default password
   shell: grap 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
