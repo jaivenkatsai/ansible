@@ -33,6 +33,8 @@
       when: NUM >= 5 or BOOL1 | bool
 
     - name: Multiple Stsatements, AND
-      
+      debug:
+        msg:
+        
 
     
