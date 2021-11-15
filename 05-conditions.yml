@@ -28,3 +28,4 @@
       when: BOOL1 | bool
 
     - name: Multiple Statements, AND
+      debug
