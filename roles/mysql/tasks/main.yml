@@ -68,7 +68,7 @@
 
 - name: Print
   debug: 
-    msg
+    msg: "{{out}}"
     
 - name: grab default password
   shell: grap 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
