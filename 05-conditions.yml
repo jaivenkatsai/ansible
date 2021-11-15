@@ -29,5 +29,5 @@
 
     - name: Multiple Statements, AND
       debug: 
-        msg: AND Statement
+        msg: 
       when: NUM >= 5 and BOOL1 | bool
