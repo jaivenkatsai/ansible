@@ -10,7 +10,8 @@
   include_tasks: download.yml
 
 - name: Install python Dependencies
-  
+  pip: 
+    re
 
 - name: SystemD
   include_tasks: systemd.yml
