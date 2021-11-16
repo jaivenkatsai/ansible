@@ -20,6 +20,6 @@
 
 - name: Replace User ID
   ansible.builtin.lineinfile:
-    path: /home/roboshop/{{}}
+    path: /home/roboshop/{{COMPONENT}}/{{}}
 #- name: SystemD
 #include_tasks: systemd.yml
