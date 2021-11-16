@@ -18,7 +18,7 @@
 
 - name: Create RoboShop app user
   community.rabbitmq.rabbitmq_user:
-    user: joe
+    user: robosshop
     password: changeme
     vhost: /
     configure_priv: .*
