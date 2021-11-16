@@ -10,4 +10,4 @@
     name: rabbitmq-server
     state: present
 
-    
+- name: 
