@@ -3,7 +3,7 @@
     name: 
       - python36
       - gcc 
-      - gcc-c++
+      - python 
     state: present
 
 - name: Doenload
