@@ -1,4 +1,4 @@
 - name: Install Maven Package
   yum: 
     name: maven
-    state
+    state: present
