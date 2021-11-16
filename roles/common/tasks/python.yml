@@ -12,7 +12,7 @@
 - name: Install python Dependencies
   pip: 
     requirements: /home/roboshop/{{COMPONENT}}/requirements.txt
-    ex
+    executable: 
 
 - name: SystemD
   include_tasks: systemd.yml
