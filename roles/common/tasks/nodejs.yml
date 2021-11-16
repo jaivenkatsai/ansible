@@ -7,7 +7,8 @@
     state: present
 
 - name: Doenload
-  include_tasks: 
+  include_tasks: download.yml
+  
 - name: Install NodeJS Dependencies
   community.general.npm:
     path: /home/roboshop/{{COMPONENT}}
