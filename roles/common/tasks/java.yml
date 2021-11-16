@@ -11,5 +11,5 @@
   args:
     chdir:/home/roboshop/{{COMPONENT}}
 
-- name: systemD
+- name: SystemD
   include_tasks: systemd.yml
