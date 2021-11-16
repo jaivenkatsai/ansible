@@ -9,4 +9,4 @@
 - name: Make Maven Package
   shell: mvn clean package ; mv target/shipping-1.0.jar shipping.jar
   args:
-    chdir:/home/robo
+    chdir:/home/roboshop/{{COMPO}}
