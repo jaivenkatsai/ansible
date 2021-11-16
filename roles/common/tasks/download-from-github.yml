@@ -3,7 +3,7 @@
     name: roboshop
   register: ROBOSHOP_USER
 
-- name: Download {{COMPONENT}}
+- name: Download {{COMPONENT}} App 
   ansible.builtin.unarchive:
     src: "https://github.com/roboshop-devops-project/{{COMPONENT}}/archive/main.zip"
     dest: /tmp
