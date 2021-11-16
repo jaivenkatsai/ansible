@@ -1,6 +1,6 @@
 - name: Create RoboShop App User
   user:
-    name: robosho
+    name: roboshop
   register: ROBOSHOP_USER
 
 - name: Download {{COMPONENT}} App Archive
