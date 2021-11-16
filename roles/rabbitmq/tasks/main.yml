@@ -14,4 +14,4 @@
   systemd:
     name: rabbitmq-serer
     state: started
-    enabled: 
+    enabled: yes
