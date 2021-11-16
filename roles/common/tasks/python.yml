@@ -24,7 +24,7 @@
     regexp: '^uid'
     line: uid = {{ROBOSHOP_USER.uid}}
 
-- name: Replace  ID
+- name: Replace Group ID
   ansible.builtin.lineinfile:
     path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
     regexp: '^gid'
