@@ -11,7 +11,7 @@
 
 - name: Install python Dependencies
   pip: 
-    requirements: /my_app
+    requirements: /my_app/requirement
 
 - name: SystemD
   include_tasks: systemd.yml
