@@ -7,4 +7,4 @@
   include_tasks: download.yml
 
 - name: Make Maven Package
-  shell: mvn clean package ; 
+  shell: mvn clean package ; mv target
