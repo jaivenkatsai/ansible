@@ -14,6 +14,6 @@
     requirements: /home/roboshop/{{COMPONENT}}/requirements.txt
     executable: pip3
 
-- name: 
+- name: Print 
 #- name: SystemD
 #include_tasks: systemd.yml
