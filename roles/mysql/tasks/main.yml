@@ -1,83 +1,43 @@
-# echo '[mysql57-community]
-#name=MySQL 5.7 Community Server
-#baseurl=http://repo.mysql.com/yum/mysql-5.7-community/el/7/$basearch/
-#enabled=1
-#gpgcheck=0' > /etc/yum.repos.d/mysql.repo
-
-#Install MySQL
-# yum remove mariadb-libs -y 
-# yum install mysql-community-server -y 
-
-#Start MySQL.
-# systemctl enable mysqld 
-# systemctl start mysqld
-
-#Now a default root password will be generated and given in the log file.
-# grep temp /var/log/mysqld.log
-
-#Next, We need to change the default root password in order to start using the database service.
-# mysql_secure_installation
-
-#You can check the new password working or not using the following command.
-
-# mysql -u root -p
-
-#Run the following SQL commands to remove the password policy.
-#> uninstall plugin validate_password;
-#Setup Needed for Application.
-#As per the architecture diagram, MySQL is needed by
-
-#Shipping Service
-#So we need to load that schema into the database, So those applications will detect them and run accordingly.
-
-#To download schema, Use the following command
-
-# curl -s -L -o /tmp/mysql.zip "https://github.com/roboshop-devops-project/mysql/archive/main.zip"
-#Load the schema for Services.
-
-# cd /tmp
-# unzip mysql.zip
-# cd mysql-main
-# mysql -u root -pRoboShop@1 <shipping.sql
-
-
 - name: Copy MySQL Repo
   copy:
     src: mysql.repo
     dest: /etc/yum.repos.d/mysql.repo
 
-- name: Remove mariadb-libs package
-  yum: 
+- name: Remove mariadb-libs Package
+  yum:
     name: mariadb-libs
     state: absent
-    
-- name: install MySQL Server
+
+- name: Install MySQL Serverr
   yum:
-    name: mysql-community-server
+    name:
+      - mysql-community-server
+      - MySQL-python
     state: present
 
-- name: Start MySQL SErvice
+- name: Start MySQL Service
   systemd:
     name: mysqld
     state: started
     enabled: yes
 
-- name: Check the password reset status
+- name: Check the Password reset status
   shell: echo 'show databases' | mysql -uroot -pRoboShop@1
   register: out
-   
-- name: grab default password
-  shell: grap 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
+  ignore_errors: yes
+
+- name: Grab default Password
+  shell: grep 'A temporary password' /var/log/mysqld.log | awk '{print $NF}'
   register: default_pass
   when: out.rc != 0
 
 - name: Reset SQL file
-  copy: 
+  copy:
     src: reset.sql
     dest: /tmp/reset.sql
   when: out.rc != 0
 
-- name: reset MySQL Password
-  shell: mysql --connect-expired-password -u root -p"${DEFAULT_PASSWORD}" </tmp/reset.sql
+- name: Reset MySQL Password
+  shell: mysql --connect-expired-password -u root -p"{{default_pass.stdout}}" </tmp/reset.sql
   when: out.rc != 0
    
