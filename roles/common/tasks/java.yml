@@ -5,11 +5,11 @@
 
 - name: download
   include_tasks: download.yml
-
-- name: Make Maven Package
+  
+- name: Make Maven package
   shell: mvn clean package ; mv target/shipping-1.0.jar shipping.jar
   args:
-    chdir:/home/roboshop/{{COMPONENT}}
+    chdir: /home/roboshop/{{COMPONENT}}}
 
 - name: SystemD
   include_tasks: systemd.yml
