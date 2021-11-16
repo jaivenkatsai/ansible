@@ -29,5 +29,6 @@
     path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
     regexp: '^gid'
     line: gid = {{ROBOSHOP_USER.group}}
-    #- name: SystemD
+  
+  - name: SystemD
 #include_tasks: systemd.yml
