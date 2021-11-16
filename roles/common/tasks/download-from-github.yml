@@ -1,6 +1,7 @@
 - name: Create RoboShop App User
   user:
-    name: roboshop
+    name: robosho
+  register: ROBOSHOP_USER
 
 - name: Download {{COMPONENT}} App Archive
   ansible.builtin.unarchive:
@@ -12,7 +13,7 @@
   ansible.builtin.file:
     path: /home/roboshop/{{COMPONENT}}
     state: absent
-    
+
 - name: Copy Extracted Content to {{COMPONENT}} Path
   ansible.builtin.copy:
     src: /tmp/{{COMPONENT}}-main/
