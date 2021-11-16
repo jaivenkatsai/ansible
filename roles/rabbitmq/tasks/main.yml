@@ -10,6 +10,6 @@
     name: rabbitmq-server
     state: present
 
-- name: StartRabbitMQ Service
+- name: StartRabbitMQ Server
   systemd:
-    name: rabbitmq-ser
+    name: rabbitmq-serer
