@@ -15,3 +15,12 @@
     name: rabbitmq-serer
     state: started
     enabled: yes
+
+- community.rabbitmq.rabbitmq_user:
+    user: joe
+    password: changeme
+    vhost: /
+    configure_priv: .*
+    read_priv: .*
+    write_priv: .*
+    state: present
