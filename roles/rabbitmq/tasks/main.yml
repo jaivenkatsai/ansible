@@ -25,4 +25,4 @@
     read_priv: .*
     write_priv: .*
     state: present
-    tags
+    tags: administator
