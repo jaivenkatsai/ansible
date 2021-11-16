@@ -16,7 +16,7 @@
     state: started
     enabled: yes
 
-- community.rabbitmq.rabbitmq_user:
+- name: community.rabbitmq.rabbitmq_user:
     user: joe
     password: changeme
     vhost: /
