@@ -1,7 +1,7 @@
 - name: Install python
   yum:
     name: 
-      - 
+      - python36
       - make 
       - gcc-c++
     state: present
