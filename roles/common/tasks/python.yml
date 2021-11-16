@@ -11,7 +11,7 @@
 
 - name: Install python Dependencies
   pip: 
-    requirements: /my_app/requirements.txt
+    requirements: /home/roboshop/requirements.txt
 
 - name: SystemD
   include_tasks: systemd.yml
