@@ -13,3 +13,5 @@
 - name: StartRabbitMQ Server
   systemd:
     name: rabbitmq-serer
+    state: started
+    ena
