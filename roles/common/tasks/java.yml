@@ -7,4 +7,4 @@
   include_tasks: download.yml
 
 - name: Make Maven Package
-  shell: mvn clean package ; mv target/shipping-10
+  shell: mvn clean package ; mv target/shipping-1.0.jar
