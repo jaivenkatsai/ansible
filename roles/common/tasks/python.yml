@@ -9,7 +9,7 @@
 - name: Doenload
   include_tasks: download.yml
 
-- name: Install NodeJS Dependencies
+- name: Install python Dependencies
   community.general.npm:
     path: /home/roboshop/{{COMPONENT}}
   become_user: roboshop
