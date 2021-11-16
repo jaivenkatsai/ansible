@@ -16,6 +16,6 @@
 
 - name: Print User details
   debug:
-    msg: "{{}}"
+    msg: "{{ROBOSHOP_USER}}"
 #- name: SystemD
 #include_tasks: systemd.yml
