@@ -1,1 +1,2 @@
-- name: Install Erlang
+- name: Install Erlang 
+   yum:
