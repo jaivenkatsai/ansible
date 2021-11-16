@@ -10,4 +10,5 @@
     name: rabbitmq-server
     state: present
 
-- name: StartRabbitMQ 
+- name: StartRabbitMQ Service
+   
