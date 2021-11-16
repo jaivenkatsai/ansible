@@ -21,6 +21,7 @@
 - name: Replace User ID
   ansible.builtin.lineinfile:
     path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
-    regexp: '^'
+    regexp: '^uid'
+    
     #- name: SystemD
 #include_tasks: systemd.yml
