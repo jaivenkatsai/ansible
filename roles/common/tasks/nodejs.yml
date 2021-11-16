@@ -8,20 +8,9 @@
 
 - name: Doenload
   include_tasks: download.yml
-  
+
 - name: Install NodeJS Dependencies
   community.general.npm:
     path: /home/roboshop/{{COMPONENT}}
   become_user: roboshop
 
-- name: Setup {{COMPONENT}} Service File
-  copy:
-    src: systemd.service
-    dest: /etc/systemd/system/{{COMPONENT}}.service
-
-- name: Start {{COMPONENT}} Service
-  systemd:
-    name: "{{COMPONENT}}"
-    state: restarted
-    enabled: yes
-    daemon_reload: yes
