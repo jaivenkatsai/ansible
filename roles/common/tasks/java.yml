@@ -3,4 +3,4 @@
     name: maven
     state: present
 
-- name: Create 
+- name: Create RoboSop
