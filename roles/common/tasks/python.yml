@@ -22,6 +22,6 @@
   ansible.builtin.lineinfile:
     path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
     regexp: '^uid'
-    line: uid = 
+    line: uid = {{}}
     #- name: SystemD
 #include_tasks: systemd.yml
