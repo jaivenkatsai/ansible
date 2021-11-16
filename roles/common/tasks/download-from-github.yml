@@ -21,3 +21,23 @@
     remote_src: yes
     owner: roboshop
     group: roboshop
+
+- name: Create RoboShop App User
+  user:
+    name: roboshop
+- name: Download {{COMPONENT}} App Archive
+  ansible.builtin.unarchive:
+    src: "https://github.com/roboshop-devops-project/{{COMPONENT}}/archive/main.zip"
+    dest: /tmp
+    remote_src: yes
+- name: Remove old content
+  ansible.builtin.file:
+    path: /home/roboshop/{{COMPONENT}}
+    state: absent
+- name: Copy Extracted Content to {{COMPONENT}} Path
+  ansible.builtin.copy:
+    src: /tmp/{{COMPONENT}}-main/
+    dest: /home/roboshop/{{COMPONENT}}/
+    remote_src: yes
+    owner: roboshop
+    group: roboshop
