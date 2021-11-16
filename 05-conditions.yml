@@ -1,38 +1,43 @@
 - name: Demo on conditions
   hosts: localhost
-  vars: 
+  vars:
     OS: centos
     NUM: 7
     BOOL1: false
   tasks:
-    - name: centos 
+    - name: CentOS
       debug:
         msg: CentOS
       when: OS == "centos"
     - name: Ubuntu
-      debug: 
+      debug:
         msg: Ubuntu
       when: OS == "ubuntu"
-    - name: Number condition - 1
-      debug: 
+    - name: Number Condition - 1
+      debug:
         msg: Num Con 1
       when: NUM >= 5
     - name: Number Condition - 2
       debug:
         msg: Num Con 1
       when: NUM <= 5
-    - name: If Bool1 is rtue
+      ### Difference b/w number and string is, Strings are Quoted and numbers are not.
+      ### Here variable would be a starting value definetly and also it should not be quoted.
+    - name: If Bool1 is true
       debug:
-        msg: Bool1 is True
+        msg: Boo1 is True
       #when: BOOL1
       when: BOOL1 | bool
+      ## Latest versions of ansibel suggest using boolean with "| bool"
 
     - name: Multiple Statements, OR
-      debug: 
-        msg: Either or Statement
+      debug:
+        msg: Either Or Statement
       when: NUM >= 5 or BOOL1 | bool
+      # OR needs only one statement to be true, Not both.
 
-    - name: Multiple Stsatements, AND
+    - name: Multiple Statements, AND
       debug:
         msg: AND Statement
-      when: NUM >= 5 and BOOL1 | bool 
+      when: NUM >= 5 and BOOL1 | bool
+      # AND needs both statement to be true
