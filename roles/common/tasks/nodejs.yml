@@ -5,8 +5,8 @@
       - make 
       - gcc-c++
     state: present
-    
 
+- name: 
 - name: Install NodeJS Dependencies
   community.general.npm:
     path: /home/roboshop/{{COMPONENT}}
