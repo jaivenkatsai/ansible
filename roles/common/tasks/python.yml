@@ -28,6 +28,6 @@
   ansible.builtin.lineinfile:
     path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini
     regexp: '^gid'
-    line: uid = {{ROBOSHOP_USER.group}}
+    line: gid = {{ROBOSHOP_USER.group}}
     #- name: SystemD
 #include_tasks: systemd.yml
