@@ -12,4 +12,4 @@
     chdir:/home/roboshop/{{COMPONENT}}
 
 - name: systemD
-  
+  include_tasks: sys
