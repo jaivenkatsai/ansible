@@ -3,6 +3,4 @@
     name: maven
     state: present
 
-- name: Create RoboShop App User
-  user: 
-    name: roboshop
+- name: 
