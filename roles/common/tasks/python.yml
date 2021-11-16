@@ -6,7 +6,7 @@
       - python3-devel
     state: present
 
-- name: Doenload
+- name: Download
   include_tasks: download.yml
 
 - name: Install python Dependencies
