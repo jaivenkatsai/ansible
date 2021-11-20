@@ -10,4 +10,5 @@
     - name: Print Loop from Map
       debug:
         msg: Hello {{item.name}}, Welcome to {{item.course}} traning
-    
+      loop:
+         
