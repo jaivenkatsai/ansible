@@ -1,9 +1,0 @@
-- name: loops
-  hosts: localhost
-  tasks: 
-    name: print
-    debug:
-      msg:  Helo, {{item}}
-    loop: 
-      - jhon
-      - ram
