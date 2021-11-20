@@ -6,4 +6,4 @@
       msg:  Helo, {{item}}
     loop: 
       - jhon
-       
+      - ram
