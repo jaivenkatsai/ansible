@@ -5,4 +5,5 @@
     debug:
       msg:  Helo, {{item}}
     loop: 
-      - 
+      - jhon
+       
