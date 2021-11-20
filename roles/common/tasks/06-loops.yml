@@ -1,3 +1,4 @@
 - name: loops
   hosts: localhost
-  tasks
+  tasks: 
+    name: 
