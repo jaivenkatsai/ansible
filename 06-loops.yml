@@ -11,4 +11,4 @@
       debug:
         msg: Hello {{item.name}}, Welcome to {{item.course}} traning
       loop:
-        - {{ name:  }}
+        - {{ name: Jhon, course:  }}
