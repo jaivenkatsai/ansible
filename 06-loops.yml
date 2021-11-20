@@ -8,4 +8,5 @@
         - John
         - Ram
     - name: Print Loop from Map
-      debug
+      debug:
+        msg
