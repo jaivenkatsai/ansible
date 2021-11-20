@@ -9,4 +9,4 @@
         - Ram
     - name: Print Loop from Map
       debug:
-        msg: Hello {{item.name}}
+        msg: Hello {{item.name}}, Welcome
