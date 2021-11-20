@@ -7,4 +7,5 @@
       loop:
         - John
         - Ram
-    - name: Print Loop 
+    - name: Print Loop from Map
+      debug
