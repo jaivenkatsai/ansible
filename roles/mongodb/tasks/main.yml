@@ -32,7 +32,7 @@
     idempotent: yes
   loop:
     - catalogue
-    - 
+    - users
 
 - name: Load Scheme - Users
   community.mongodb.mongodb_shell:
