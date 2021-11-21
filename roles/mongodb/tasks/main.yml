@@ -31,6 +31,7 @@
     file: "/tmp/mongodb-main/catalogue.js"
     idempotent: yes
   loop:
+    - catalogue
     - 
 
 - name: Load Scheme - Users
