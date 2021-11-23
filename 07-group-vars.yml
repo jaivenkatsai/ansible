@@ -2,4 +2,5 @@
   hosts: sample
   tasks: 
     - name: Demo on groups
-      debug
+      debug: 
+        msg: 
