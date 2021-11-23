@@ -3,4 +3,4 @@
   tasks: 
     - name: Demo on groups
       debug: 
-        msg: Hello. {{}}
+        msg: Hello. {{URL}}
