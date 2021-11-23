@@ -1,4 +1,0 @@
-- name: Test on group vars
-  hosts: sample
-  tasks: 
-    - nae
