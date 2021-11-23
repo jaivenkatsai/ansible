@@ -1,1 +1,2 @@
-- name: Test on group 
+- name: Test on group vars
+  
