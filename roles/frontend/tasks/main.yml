@@ -29,4 +29,10 @@
   systemd:
     name: nginx
     state: restarted
+    enabled: yes notify: Restart Nginx
+
+- name: Start Nginx
+  systemd:
+    name: nginx
+    state: tarted
     enabled: yes
