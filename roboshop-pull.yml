@@ -1,2 +1,3 @@
 - name: Pull
-  hosts: loc
+  hosts: localhost
+  become: 
