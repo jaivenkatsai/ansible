@@ -1,3 +1,4 @@
 - name: Pull
   hosts: localhost
-  become: 
+  become: yes
+  
