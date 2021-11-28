@@ -71,6 +71,8 @@
 - name: Pull
   hosts: localhost
   become: yes
+
+  
   roles: 
     - role: "{{ROLE}}"
       when: ROLE is defined
