@@ -5,4 +5,4 @@ After=network-online.target
 
 [Service]
 Type=simple
-Execstart=/opt/node_exporter/
+Execstart=/opt/node_exporter/node_exporter
