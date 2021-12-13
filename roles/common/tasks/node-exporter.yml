@@ -13,4 +13,4 @@
 - name: Copy systemD file
   copy:
     src: node_exporter.service
-    dest: 
+    dest: /etc/
