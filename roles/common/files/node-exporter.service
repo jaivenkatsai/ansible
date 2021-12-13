@@ -8,4 +8,4 @@ Type=simple
 Execstart=/opt/node_exporter/node_exporter --collector.systemd
 
 [Install]
-WantedBy=multi
+WantedBy=multi-user.target
