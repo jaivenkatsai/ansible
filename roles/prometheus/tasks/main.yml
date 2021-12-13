@@ -1,3 +1,4 @@
 - name: Update Prometheus Config
-  TEMPLATE
+  template: 
+    
   
