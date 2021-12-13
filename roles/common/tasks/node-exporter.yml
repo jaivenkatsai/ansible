@@ -12,4 +12,4 @@
 
 - name: Copy systemD file
   copy:
-    
+    src: node
