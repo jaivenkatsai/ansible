@@ -33,7 +33,7 @@ scrape_configs:
         access_key: {{ACCESS_KEY}}
         secret_key: {{SECRET_KEY}}
         port: 9100
-          filters:
+        filters:
           - name: "tag:Name"
             values: ["frontend", "cart", "catalogue", "user", "shipping", "payment"]
     static_configs:
