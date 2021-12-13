@@ -1,5 +1,5 @@
 - name: Update Prometheus Config
   template: 
-    src:
+    src: prometheus.yml
     dest: /opt/prometheus/prometheus.yml
   
