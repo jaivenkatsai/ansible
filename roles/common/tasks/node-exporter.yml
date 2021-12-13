@@ -17,4 +17,5 @@
      
 - name: Start Node exporter
   systemd:
-    name: npde
+    name: node_exporter
+    
