@@ -3,4 +3,4 @@
     src: prometheus.yml
     dest: /opt/prometheus/prometheus.yml
   
-- name: Restart 
+- name: Restart Prometheus Ser
