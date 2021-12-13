@@ -19,4 +19,5 @@
   systemd:
     name: node_exporter
     state: restarted
-    enabled
+    enabled: yes 
+    
