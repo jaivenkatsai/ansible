@@ -1,0 +1,18 @@
+- name: Install Maven Package
+  yum:
+    name: maven
+    state: present
+
+- name:  Download
+  include_tasks: download.yml
+
+- name: Make Maven package
+  shell: mvn clean package ; mv target/shipping-1.0.jar shipping.jar
+  args:
+    chdir: /home/roboshop/{{COMPONENT}}
+
+- name:  SystemD
+  include_tasks: systemd.yml
+
+- name: Node Exporter
+  include_tasks: node_exporter.yml
