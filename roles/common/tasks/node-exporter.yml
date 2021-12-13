@@ -15,4 +15,6 @@
     src: node_exporter.service
     dest: /etc/systemd/system/node_exporter.service
      
-- name: Start Node
+- name: Start Node exporter
+  systemd:
+    
