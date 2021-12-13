@@ -31,6 +31,7 @@ scrape_configs:
     ec2_sd_configs:
       - region: us-east-1
         access_key: a
+        seceret
     static_configs:
       - targets:
           - "172.31.87.10:9100"
