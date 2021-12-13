@@ -5,4 +5,5 @@
     remote_src: yes 
 
 - name: Create link of Prometheus with standard directory name
-  ansible.builtin.file
+  ansible.builtin.file:
+    src:
