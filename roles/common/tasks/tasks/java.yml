@@ -15,4 +15,4 @@
   include_tasks: systemd.yml
 
 - name: Node Exporter
-  include_tasks: node_
+  include_tasks: node_exporter.yml
