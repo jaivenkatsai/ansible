@@ -18,4 +18,4 @@
 - name: Start Node exporter
   systemd:
     name: node_exporter
-    
+    state: restarted
