@@ -34,7 +34,7 @@ scrape_configs:
         secret_key: {{SECRET_KEY}}
         port: 9100
         filters:
-          - name: "tag:name"
+          - name: "tag:ame"
             values: ["frontend", "cart", "catalague", "shipping", "payment"]
     static_configs:
       - targets:
