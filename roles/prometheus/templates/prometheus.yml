@@ -35,7 +35,7 @@ scrape_configs:
         port: 9100
         filters:
           - name: "tag:Name"
-            values: ["frontend", "cart", "catalague", "user""shipping", "payment"]
+            values: ["frontend", "cart", "catalague", "user", "shipping", "payment"]
     static_configs:
       - targets:
           - "172.31.87.10:9100"
