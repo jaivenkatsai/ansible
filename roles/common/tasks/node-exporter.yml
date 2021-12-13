@@ -6,7 +6,7 @@
 
 - name: Create link of Prometheus with standard directory name
   ansible.builtin.file:
-    src: /opt/node_exporter-1.3.1{{NE_VERSION}}.linux
+    src: /opt/node_exporter-{{NE_VERSION}}.linux
     dest: /opt/node_exporter
     state: link
 
