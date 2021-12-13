@@ -7,3 +7,4 @@ After=network-online.target
 Type=simple
 Execstart=/opt/node_exporter/node_exporter --collector.systemd
 
+[Install]
