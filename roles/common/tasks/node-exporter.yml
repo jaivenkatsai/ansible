@@ -1,4 +1,5 @@
-- name: Create Node E
+- name: Create Node Exporter
+  
 
 - name: Download Node Exporter
   unarchive:  
