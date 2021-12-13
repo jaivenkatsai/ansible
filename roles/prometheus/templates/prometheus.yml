@@ -29,7 +29,7 @@ scrape_configs:
       - targets: ["localhost:9090"]
   - job_name: "ec2-nodes"
     ec2_sd_configs:
-      - 
+      - region: us
     static_configs:
       - targets:
           - "172.31.87.10:9100"
