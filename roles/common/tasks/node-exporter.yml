@@ -1,6 +1,6 @@
 - name: Create Node Exporter
   file:
-    name: 
+    name: /opt/node_
 
 - name: Download Node Exporter
   unarchive:  
