@@ -6,4 +6,4 @@
 - name: Restart Prometheus Service
   systemd:
     name: prometheus
-    
+    state
