@@ -34,7 +34,7 @@ scrape_configs:
         secret_key: {{SECRET_KEY}}
         port: 9100
         filters:
-          - name: 
+          - name: "tag:m"
     static_configs:
       - targets:
           - "172.31.87.10:9100"
