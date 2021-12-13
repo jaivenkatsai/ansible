@@ -10,4 +10,4 @@
     dest: /opt/node_exporter
     state: link
 
-- name: Copy sytemD file
+- name: Copy systemD file
