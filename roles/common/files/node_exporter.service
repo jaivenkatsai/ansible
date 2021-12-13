@@ -1,11 +1,11 @@
 [Unit]
 Description=node_exporter
 Wants=network-online.target
-After=network-online.target  
+After=network-online.target
 
 [Service]
 Type=simple
-Execstart=/opt/node_exporter/node_exporter --collector.systemd
+ExecStart=/opt/node_exporter/node_exporter --collector.systemd
 
 [Install]
 WantedBy=multi-user.target
