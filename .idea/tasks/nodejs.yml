@@ -14,5 +14,8 @@
     path: /home/roboshop/{{COMPONENT}}
   become_user: roboshop
 
+- name:  SystemD
+  include_tasks: systemd.yml
+
 - name: Node Exporter
   include_tasks: node-exporter.yml
