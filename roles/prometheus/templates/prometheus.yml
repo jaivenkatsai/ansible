@@ -31,7 +31,7 @@ scrape_configs:
     ec2_sd_configs:
       - region: us-east-1
         access_key: {{ACCESS_KEY}}
-        secret_key: {{SE}}
+        secret_key: {{SECRET_KEY}}
         port: 9100
     static_configs:
       - targets:
