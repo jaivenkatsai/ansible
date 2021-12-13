@@ -4,4 +4,4 @@
     dest: /opt/node_exporter
     remote_src: yes 
 
-- name: Create link of Prometheus 
+- name: Create link of Prometheus with standard 
