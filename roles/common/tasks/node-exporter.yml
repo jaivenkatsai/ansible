@@ -1,7 +1,7 @@
 - name: Download Node Exporter
   unarchive:
     src: https://github.com/prometheus/node_exporter/releases/download/v{{NE_VERSION}}/node_exporter-{{NE_VERSION}}.linux-amd64.tar.gz
-    dest: /opt
+    dest: /opt/node
     remote_src: yes
 
 - name: Create link of prometheus with standard directory name
