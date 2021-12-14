@@ -4,7 +4,7 @@
     dest: /opt
     remote_src: yes
 
-- name: Create link 
+- name: Create link of Prometheus
 
 - name: Copy SystemD file
   copy:
