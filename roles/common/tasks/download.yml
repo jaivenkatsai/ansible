@@ -1,2 +1,2 @@
 - name: Include GitHub Download
-  include_tasks: download-from-github.yml 
+  include_tasks: download-from-github.yml
