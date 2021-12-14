@@ -6,7 +6,7 @@
 
 - name: Create link of Prometheus with standard directory name
   ansible.builtin.file:
-    
+    src: /opt/
 
 - name: Copy SystemD file
   copy:
