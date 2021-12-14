@@ -4,8 +4,6 @@
     dest: /opt
     remote_src: yes
 
-
-
 - name: Copy SystemD file
   copy:
     src: node_exporter.service
