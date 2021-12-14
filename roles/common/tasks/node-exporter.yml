@@ -12,8 +12,8 @@
 
 - name: Copy SystemD file
   copy:
-    src: node-exporter.service
-    dest: /etc/systemd/system/node-exporter.service
+    src: node_exporter.service
+    dest: /etc/systemd/system/node_exporter.service
 
 - name: Start Node exporter
   systemd:
