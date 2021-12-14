@@ -32,7 +32,7 @@
     state: started
     enabled: yes
 
-- name: Include node_exporter
+- name: Include Node_exporter
   include_role:
     name: common
     tasks_from: node-exporter
