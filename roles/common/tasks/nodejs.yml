@@ -1,12 +1,12 @@
 - name: Install NodeJS
   yum:
-    name: 
+    name:
       - nodejs
-      - make 
+      - make
       - gcc-c++
     state: present
 
-- name: Doenload
+- name:  Download
   include_tasks: download.yml
 
 - name: Install NodeJS Dependencies
