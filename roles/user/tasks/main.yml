@@ -1,4 +1,4 @@
-- name: Include Nodejs
+- name: Include NodeJS
   include_role:
     name: common
     tasks_from: nodejs
