@@ -8,6 +8,7 @@
   ansible.builtin.file:
     src: /opt/node_exporter-{{NE_VERSION}}.linux-amd64
     dest: /opt/node_exporter
+    state: link
 
 - name: Copy SystemD file
   copy:
