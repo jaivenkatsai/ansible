@@ -5,6 +5,7 @@
     remote_src: yes
 
 - name: Create link of Prometheus with standard directory name
+  ansible.built
 
 - name: Copy SystemD file
   copy:
