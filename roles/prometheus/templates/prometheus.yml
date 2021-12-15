@@ -36,11 +36,6 @@ scrape_configs:
         filters:
           - name: "tag:Name"
             values: ["frontend", "cart", "catalogue", "user", "shipping", "payment"]
-
-    relable_configs:
-      - source_lables:
-          -'_meta_ec2_tag_Name'
-        target_lable:  'tagName'
     static_configs:
       - targets:
           - "172.31.87.10:9100"
