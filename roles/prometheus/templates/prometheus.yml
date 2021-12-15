@@ -43,4 +43,4 @@ scrape_configs:
     relable_configs:
       - source_lables:
           -'_meta_ec2_tag_Name'
-        target_
+        target_lable:  
