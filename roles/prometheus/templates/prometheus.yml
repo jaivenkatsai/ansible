@@ -42,4 +42,4 @@ scrape_configs:
 
     relable_configs:
       - source_lables:
-          -'_'
+          -'_meta'
