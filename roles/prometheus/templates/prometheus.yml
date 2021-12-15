@@ -37,7 +37,7 @@ scrape_configs:
           - name: "tag:Name"
             values: ["frontend", "cart", "catalogue", "user", "shipping", "payment"]
 
-     relable_configs:
+    relable_configs:
       - source_lables:
           -'_meta_ec2_tag_Name'
         target_lable:  'tagName'
