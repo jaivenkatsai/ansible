@@ -3,7 +3,7 @@
     src: prometheus.yml
     dest: /opt/prometheus/prometheus.yml
 
-- name: Update records
+- name: Update records & 
   template:
     src: records.yml
     dest: /opt/prometheus/records.yml
