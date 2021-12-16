@@ -1,2 +1,4 @@
 groups:
-  - name: 
+  - name: example
+    rules:
+      
