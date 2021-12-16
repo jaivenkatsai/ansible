@@ -16,7 +16,7 @@
 - name: AlertManager Config
   template: 
     src: "{{item}}.yml"
-    dest: /opt/prometheus/{{item}}.yml
+    dest: /opt/alertmanager/{{item}}.yml
   loop:
     - prometheus
     - alerts
