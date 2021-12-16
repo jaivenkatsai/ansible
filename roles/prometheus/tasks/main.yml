@@ -1,6 +1,6 @@
 - name: Update Prometheus Config
   template: 
-    src: "{{item}}".yml
+    src: "{{item}}.yml"
     dest: /opt/prometheus/{{item}}.yml
   loop:
     - prometheus
