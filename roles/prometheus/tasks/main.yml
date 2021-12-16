@@ -3,6 +3,7 @@
     src: prometheus.yml
     dest: /opt/prometheus/prometheus.yml
   loop:
+    - prometheus
     - 
   
 - name: Restart Prometheus Service
