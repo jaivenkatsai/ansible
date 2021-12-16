@@ -1,7 +1,7 @@
 groups:
 - name: HardwareResources
   rules:
-  - alert: High
+  - alert: HighCPU
     expr: job:request_latency_seconds:mean5m{job="myjob"} > 0.5
     for: 10m
     labels:
