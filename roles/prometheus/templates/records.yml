@@ -2,4 +2,4 @@ groups:
   - name: example
     rules:
       - records: cpu_usage_in_percentage
-        expr: 100 - (rate(node_cpu_seconds_total{mode="idle"}[]))
+        expr: 100 - (rate(node_cpu_seconds_total{mode="idle"}[1m]) * 100)
