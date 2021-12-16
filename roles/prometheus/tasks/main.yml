@@ -5,7 +5,8 @@
 
 - name: Update records
   template:
-     
+    src: records.yml
+    
   
 - name: Restart Prometheus Service
   systemd:
