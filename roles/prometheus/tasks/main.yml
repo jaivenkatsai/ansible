@@ -3,7 +3,8 @@
     src: prometheus.yml
     dest: /opt/prometheus/prometheus.yml
 
-- name: Update
+- name: Update records
+  template
   
 - name: Restart Prometheus Service
   systemd:
