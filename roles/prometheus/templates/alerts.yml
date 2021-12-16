@@ -2,7 +2,7 @@ groups:
 - name: HardwareResources
   rules:
   - alert: HighCPU
-    expr: CPU_
+    expr: CPU_usage_
     for: 10m
     labels:
       severity: page
