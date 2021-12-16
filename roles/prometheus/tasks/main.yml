@@ -13,3 +13,17 @@
     state: restarted
     enabled: yes
 
+- name:  Config
+  template: 
+    src: "{{item}}.yml"
+    dest: /opt/prometheus/{{item}}.yml
+  loop:
+    - prometheus
+    - alerts
+    - records
+  
+- name: Restart Prometheus Service
+  systemd:
+    name: prometheus
+    state: restarted
+    enabled: yes
