@@ -18,9 +18,7 @@
     src: "{{item}}.yml"
     dest: /opt/alertmanager/{{item}}.yml
   loop:
-    - prometheus
-    - alerts
-    - records
+    - alert-manager
   
 - name: Restart AlertManager Service
   systemd:
