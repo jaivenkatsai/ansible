@@ -1,5 +1,5 @@
 groups:
-- name: example
+- name: 
   rules:
   - alert: HighRequestLatency
     expr: job:request_latency_seconds:mean5m{job="myjob"} > 0.5
