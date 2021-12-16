@@ -7,4 +7,4 @@ groups:
     labels:
       severity: critical
     annotations:
-      summary: High
+      summary: HighCPU
