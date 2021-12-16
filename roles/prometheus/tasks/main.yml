@@ -22,7 +22,7 @@
     - alerts
     - records
   
-- name: Restart Prometheus Service
+- name: Restart AlertManager Service
   systemd:
     name: prometheus
     state: restarted
