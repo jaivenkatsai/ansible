@@ -4,7 +4,8 @@
     dest: /opt/prometheus/prometheus.yml
   loop:
     - prometheus
-    - 
+    - alerts
+    - records
   
 - name: Restart Prometheus Service
   systemd:
