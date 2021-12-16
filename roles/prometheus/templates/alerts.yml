@@ -8,4 +8,4 @@ groups:
       severity: critical
     annotations:
       summary: HighCPU on {%raw%}{{ $labels.instance }}{%endraw%}
-      300
+    
