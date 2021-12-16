@@ -1,5 +1,5 @@
 groups:
-- name: 
+- name: HardwareResources
   rules:
   - alert: HighRequestLatency
     expr: job:request_latency_seconds:mean5m{job="myjob"} > 0.5
