@@ -7,7 +7,7 @@ route:
   receivers:
   - name: email
     email_configs:
-      - to: raghudevopsb58@gmail.com
+      - to: venkatpulivarthi88@gmail.com
         from: raghudevopsb58@gmail.com
         smarthost: email-smtp.us-east-1.amazonaws.com:587
         auth_username: AKIAZHEF5S5CLWR7EGOC
