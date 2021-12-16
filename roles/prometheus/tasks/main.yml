@@ -24,6 +24,6 @@
   
 - name: Restart AlertManager Service
   systemd:
-    name: prometheus
+    name: alertmanager
     state: restarted
     enabled: yes
