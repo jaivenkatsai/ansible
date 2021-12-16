@@ -5,6 +5,6 @@ groups:
     expr: CPU_usage_in_percentage > 90
     for: 10m
     labels:
-      severity: 
+      severity: critical
     annotations:
-      summary: High request latency
+      summary: 
