@@ -13,7 +13,7 @@
     state: restarted
     enabled: yes
 
-- name:  Config
+- name: Alert Config
   template: 
     src: "{{item}}.yml"
     dest: /opt/prometheus/{{item}}.yml
