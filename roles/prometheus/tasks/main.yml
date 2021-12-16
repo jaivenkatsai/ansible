@@ -4,7 +4,8 @@
     dest: /opt/prometheus/prometheus.yml
 
 - name: Update records
-  template
+  template:
+     
   
 - name: Restart Prometheus Service
   systemd:
