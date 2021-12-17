@@ -10,7 +10,7 @@ route:
       - to: venkatpulivarthi88@gmail.com
         from: venkatpulivarthi88@gmail.com
         smarthost: email-smtp.us-east-1.amazonaws.com:587
-        auth_username: AKIAZHEF5S5CLWR7EGOC
+        auth_username: AKIA26BT3A3N4OFLWSNT
         auth_password: BPQPL84bzkqGAzfcW50NbOOK2St/b4VXabPbrGawb87t
         require_tls: yes
 receivers:
