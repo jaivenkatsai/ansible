@@ -11,7 +11,7 @@ route:
         from: venkatpulivarthi88@gmail.com
         smarthost: email-smtp.us-east-1.amazonaws.com:587
         auth_username: AKIA26BT3A3N4OFLWSNT
-        auth_password: BPQPL84bzkqGAzfcW50NbOOK2St/b4VXabPbrGawb87t
+        auth_password: BFMvVpga368zb7r32r3ip/jhQZflWTENp18o7S9NziYs
         require_tls: yes
 receivers:
 - name: 'web.hook'
