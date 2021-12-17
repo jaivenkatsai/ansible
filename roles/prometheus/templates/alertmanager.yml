@@ -1,0 +1,25 @@
+route:
+  group_by: ['alertname']
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 1h
+  receiver: 'email'
+  receivers:
+  - name: email
+    email_configs:
+      - to: venkatpulivarthi88@gmail.com
+        from: venkatpulivarthi88@gmail.com
+        smarthost: email-smtp.us-east-1.amazonaws.com:587
+        auth_username: AKIA26BT3A3N4OFLWSNT
+        auth_password: BFMvVpga368zb7r32r3ip/jhQZflWTENp18o7S9NziYs
+        require_tls: yes
+receivers:
+- name: 'web.hook'
+  webhook_configs:
+  - url: 'http://127.0.0.1:5001/'
+inhibit_rules:
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname', 'dev', 'instance']
