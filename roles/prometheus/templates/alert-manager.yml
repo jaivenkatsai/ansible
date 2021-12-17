@@ -9,7 +9,7 @@ route:
     email_configs:
       - to: venkatpulivarthi88@gmail.com
         from: venkatpulivarthi88@gmail.com
-        smarthost: 35.175.109.215
+        smarthost: 
         auth_username: AKIAZHEF5S5CLWR7EGOC
         auth_password: BPQPL84bzkqGAzfcW50NbOOK2St/b4VXabPbrGawb87t
         require_tls: yes
