@@ -3,7 +3,7 @@ groups:
   rules:
   - alert: HighCPU
     expr: CPU_usage_in_percentage > 90
-    for: 
+    for: 50s
     labels:
       severity: critical
     annotations:
