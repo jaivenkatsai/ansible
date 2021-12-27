@@ -5,7 +5,7 @@ route:
   repeat_interval: 1h
   receiver: 'email'
   receivers:
-  - name: emaill
+  - name: email
     email_configs:
       - to: venkatpulivarthi88@gmail.com
         from: venkatpulivarthi88@gmail.com
