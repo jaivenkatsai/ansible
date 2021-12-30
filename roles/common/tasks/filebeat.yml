@@ -16,4 +16,4 @@
 - name: Start Filebeat service
   systemd:
     name: filebeat
-    starte
+    state: restartes
