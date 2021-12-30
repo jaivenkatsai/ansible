@@ -1,4 +1,4 @@
-- name: 
+sy- name: Setup rs
 - name: Install NodeJS
   yum:
     name:
