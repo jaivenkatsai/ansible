@@ -17,4 +17,4 @@
   systemd:
     name: filebeat
     state: restarted
-    enabled: yea
+    enabled: yes
