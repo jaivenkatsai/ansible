@@ -1,4 +1,4 @@
-sy- name: Setup rs
+- name: Setup rsyslog
 - name: Install NodeJS
   yum:
     name:
