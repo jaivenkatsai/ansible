@@ -1,4 +1,4 @@
 - name: Import Filebeat RPM Key
   ansible.builtin.rpm_key:
     state: present
-    key: https://package
+    key: https://packages.elastic.co
