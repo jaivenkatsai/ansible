@@ -2,7 +2,8 @@
   template:
     src: rsyslog.conf
     dest: /etc/rsyslog.d/roboshop.conf
-    
+
+- name: 
 - name: Install NodeJS
   yum:
     name:
