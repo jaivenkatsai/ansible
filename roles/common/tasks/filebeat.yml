@@ -3,3 +3,4 @@
     state: present
     key: https://packages.elastic.co/GPG-KEY-elasticsearch
 
+- name: Copy yum repo file
