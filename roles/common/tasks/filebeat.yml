@@ -1,0 +1,4 @@
+- name: Import a key from 
+  ansible.builtin.rpm_key:
+    state: present
+    key: http://apt.sw.be/RPM-GPG-KEY.dag.txt
