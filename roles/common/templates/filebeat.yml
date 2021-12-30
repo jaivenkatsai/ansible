@@ -1,13 +1,7 @@
 filebeat.inputs:
  - type: log
    enabled: true
-  
-
-
-  # Change to true to enable this input configuration.
-  enabled: false
-
-  # Paths that should be crawled and fetched. Glob based paths.
+.
   paths:
     - /var/log/*.log
     #- c:\programdata\elasticsearch\logs\*
