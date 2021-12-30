@@ -6,4 +6,4 @@
 - name: Copy Yum repo file
   copy:
     src: es.repo
-    dest: /etc/yum.repos
+    dest: /etc/yum.repos.d/es
