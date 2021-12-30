@@ -1,4 +1,4 @@
-- name: Import Filebeat RPM 
+- name: Import Filebeat RPM Key
   ansible.builtin.rpm_key:
     state: present
     key: http://apt.sw.be/RPM-GPG-KEY.dag.txt
