@@ -1,2 +1,7 @@
+- name: Copy Set-Hostname Script
+  copy:
+    src: set-hostname
+    dest: /tmp
+
 - name: Set Hostname
   shell: set-hostname {{COMPONENT}}
