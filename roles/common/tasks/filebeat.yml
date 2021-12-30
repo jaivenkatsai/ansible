@@ -11,4 +11,4 @@
 - name: Install filebeat
   yum:
     name: filebeat
-    state: 
+    state: installed
