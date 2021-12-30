@@ -1,9 +1,8 @@
 filebeat.inputs:
  - type: log
    enabled: true
-.
-  paths:
-    - /var/log/*.log
+   paths:
+    - /var/log/{{}}
     #- c:\programdata\elasticsearch\logs\*
 
   # Exclude lines. A list of regular expressions to match. It drops the lines that are
