@@ -8,7 +8,6 @@
     name: rsyslog
     state: restarted
 
-    
 - name: Install NodeJS
   yum:
     name:
