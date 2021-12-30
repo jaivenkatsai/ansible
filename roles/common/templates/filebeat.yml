@@ -3,9 +3,6 @@ filebeat.inputs:
    enabled: true
    paths:
     - /var/log/{{COMPONENT}}.log
-  
-
-# ============================== Filebeat modules ==============================
 
 filebeat.config.modules:
   # Glob pattern for configuration loading
