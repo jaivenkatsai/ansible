@@ -9,4 +9,5 @@
     dest: /etc/yum.repos.d/es.repo
 
 - name: Install filebeat
-  
+  yum:
+    na
