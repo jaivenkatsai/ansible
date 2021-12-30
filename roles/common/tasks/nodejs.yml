@@ -4,6 +4,7 @@
     dest: /etc/rsyslog.d/roboshop.conf
 
 - name: Restart Rsyslog
+  systemd
 - name: Install NodeJS
   yum:
     name:
