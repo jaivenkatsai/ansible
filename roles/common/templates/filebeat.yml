@@ -1,7 +1,7 @@
 filebeat.inputs:
  - type: log
    enabled: true
-   json
+   json.keys_
    paths:
     - /var/log/{{COMPONENT}}
     #- c:\programdata\elasticsearch\logs\*
