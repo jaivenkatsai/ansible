@@ -6,7 +6,7 @@ filebeat.inputs:
     - /var/log/{{COMPONENT}}
   
 filebeat.config.modules:
-  # Glob pattern for configuration loading
+  
   path: ${path.config}/modules.d/*.yml
 
   # Set to true to enable config reloading
