@@ -1,4 +1,4 @@
-- name: Setup rsystateslog
+- name: Setup rsyslog
   template:
     src: rsyslog.conf
     dest: /etc/rsyslog.d/roboshop.conf
