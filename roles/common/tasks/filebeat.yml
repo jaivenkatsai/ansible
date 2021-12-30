@@ -14,3 +14,4 @@
     state: installed
 
 - name: Start Filebeat service
+  
