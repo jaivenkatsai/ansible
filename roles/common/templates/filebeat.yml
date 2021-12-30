@@ -6,8 +6,8 @@ filebeat.inputs:
     - /var/log/{{COMPONENT}}
   
 filebeat.config.modules:
-  
   path: ${path.config}/modules.d/*.yml
+  
 
   # Set to true to enable config reloading
   reload.enabled: false
