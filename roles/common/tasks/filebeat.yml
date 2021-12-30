@@ -10,4 +10,4 @@
 
 - name: Install filebeat
   yum:
-    na
+    name: filebeat
