@@ -1,6 +1,5 @@
-
-
 filebeat.inputs:
+  - 
   
 
 
