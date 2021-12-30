@@ -8,3 +8,4 @@
     src: es.repo
     dest: /etc/yum.repos.d/es.repo
 
+- name: 
