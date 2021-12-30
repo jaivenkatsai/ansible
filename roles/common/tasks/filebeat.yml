@@ -12,3 +12,4 @@
   yum:
     name: filebeat
     state: installed
+
