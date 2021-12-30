@@ -1,6 +1,6 @@
 - name: Setup rsyslog
   template:
-    src: 
+    src: rsyslo
 - name: Install NodeJS
   yum:
     name:
