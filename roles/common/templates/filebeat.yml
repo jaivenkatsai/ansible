@@ -6,7 +6,7 @@
     paths:
      {% if NGINX is defined %}
       - /var/log/nginx/access.log
-{% else %}
+      {% else %}
       - /var/log/{{COMPONENT}}.log
 {% endif %}
 
