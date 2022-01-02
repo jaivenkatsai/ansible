@@ -1,11 +1,19 @@
 filebeat.inputs:
   - type: log
     enabled: true
+    fields:
+      appName: {{COMPONENT}}
     paths:
 {% if NGINX is defined %}
       - /var/log/nginx/access.log
 {% else %}
       - /var/log/{{COMPONENT}}.log
+{% endif %}
+
+{% if JAVA is defined %}
+    multiline.pattern: "^[0-9][0-9][0-9][0-9]-"
+    multiline.negate: true
+    multiline.match: after
 {% endif %}
 
 {% if OUTPUT_TO == "elasticsearch" %}
@@ -40,3 +48,4 @@ processors:
   - add_cloud_metadata: ~
   - add_docker_metadata: ~
   - add_kubernetes_metadata: ~
+~
