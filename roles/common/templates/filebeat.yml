@@ -5,7 +5,7 @@
       appName: {{COMPONENT}}
     paths:
      {% if NGINX is defined %}
-      - /var/log/nginx/access.log
+  - /var/log/nginx/access.log
       {% else %}
       - /var/log/{{COMPONENT}}.log
 {% endif %}
