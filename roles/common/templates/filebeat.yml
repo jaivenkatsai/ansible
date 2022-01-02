@@ -27,7 +27,7 @@ output.elasticsearch:
   index: "{{COMPONENT}}-%{+yyyy.MM.dd}"
 {% endif %}
 
-{% if OUTPUT_TO == "logstash" %}
+   {% if OUTPUT_TO == "logstash" %}
 output.logstash:
   hosts: ["elasticsearch.roboshop.internal:5044"]
 {% endif %}
