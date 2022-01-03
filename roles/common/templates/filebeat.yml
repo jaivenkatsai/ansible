@@ -19,8 +19,7 @@ output.elasticsearch:
 {% if OUTPUT_TO == "logstash" %}
 output.logstash:
   hosts: ["elasticsearch.roboshop.internal:9200"]
-  index: "{{COMPONENT}}-%{+yyyy.MM.dd}"
-{% endif %}
+  {% endif %}
 ### Default Configuration
 filebeat.config.modules:
   path: ${path.config}/modules.d/*.yml
