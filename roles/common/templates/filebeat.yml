@@ -2,7 +2,7 @@ filebeat.inputs:
   - type: log
     enabled: true
     paths:
-{% if NGINX %}
+{% if NGINX is defined %}
       - /var/log/nginx/access_log
 {% else %}
       - /var/log/{{COMPONENT}}.log
