@@ -7,8 +7,7 @@ filebeat.inputs:
       - /var/log/nginx/access_log
 {% else %}
       - /var/log/{{COMPONENT}}.log
-{% if OUTPUT_TO == "elasticsearch" %}
-      
+{% if OUTPUT_TO == "elasticsearch" %}     
 setup.template.name: "{{COMPONENT}}"
 setup.template.pattern: "{{COMPONENT}}-*"
 setup.ilm.enabled: false
