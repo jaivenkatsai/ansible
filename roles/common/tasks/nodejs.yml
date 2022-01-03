@@ -33,4 +33,4 @@
 - name: Filebeat Setup
   include_tasks: filebeat.yml
   vars: 
-    OUT
+    OUTPUT_TO
