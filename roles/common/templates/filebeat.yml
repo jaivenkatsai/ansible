@@ -10,7 +10,7 @@ filebeat.inputs:
 setup.template.name: "{{COMPONENT}}"
 setup.template.pattern: "{{COMPONENT}}-*"
 setup.ilm.enabled: false
-  {%  }
+  {% endif % }
 
 output.{{OUTPUT_TO}}:
   hosts: ["elasticsearch.roboshop.internal:9200"]
