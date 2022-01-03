@@ -8,6 +8,7 @@ filebeat.inputs:
 {% else %}
 
 {% if OUTPUT_TO == "elasticsearch" %}
+      - /var/log/{{COMPONENT}}.log
 setup.template.name: "{{COMPONENT}}"
 setup.template.pattern: "{{COMPONENT}}-*"
 setup.ilm.enabled: false
