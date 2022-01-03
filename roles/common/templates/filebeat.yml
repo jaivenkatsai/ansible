@@ -1,29 +1,12 @@
-
-    filebeat.inputs:
-    - type: log
+filebeat.inputs:
+  - type: log
     enabled: true
-    paths:
-{% if NGINX is defined %}
-      - /var/log/nginx/access.log
- {% else %}
-      - /var/log/{{COMPONENT}}.log
-{% endif %}
-
-{% if OUTPUT_TO == "elasticsearch" %}
     json.keys_under_root: true
-setup.template.name: "{{COMPONENT}}"
-setup.template.pattern: "{{COMPONENT}}-*"
-setup.ilm.enabled: false
+    paths:
+      - /var/log/{{COMPONENT}}.log
 
 output.elasticsearch:
   hosts: ["elasticsearch.roboshop.internal:9200"]
-  index: "{{COMPONENT}}-%{+yyyy.MM.dd}"
-{% endif %}
-
-{% if OUTPUT_TO == "logstash" %}
-output.logstash:
-  hosts: ["elasticsearch.roboshop.internal:5044"]
-{% endif %}
 
 ### Default Configuration
 filebeat.config.modules:
