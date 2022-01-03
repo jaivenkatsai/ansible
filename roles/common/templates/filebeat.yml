@@ -16,6 +16,7 @@ output.elasticsearch:
   index: "{{COMPONENT}}-%{+yyyy.MM.dd}"
 {% endif %}
 
+{% if OUTPUT_TO == "elasticsearch" %}
 ### Default Configuration
 filebeat.config.modules:
   path: ${path.config}/modules.d/*.yml
