@@ -9,11 +9,12 @@ filebeat.inputs:
 setup.template.name: "{{COMPONENT}}"
 setup.template.pattern: "{{COMPONENT}}-*"
 setup.ilm.enabled: false
-{% endif %}
+
 
 output.{{OUTPUT_TO}}:
   hosts: ["elasticsearch.roboshop.internal:9200"]
   index: "{{COMPONENT}}-%{+yyyy.MM.dd}"
+{% endif %}
 
 ### Default Configuration
 filebeat.config.modules:
