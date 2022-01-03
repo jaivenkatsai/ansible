@@ -4,7 +4,7 @@ filebeat.inputs:
     json.keys_under_root: true
     paths:
 {% if NGINX %}
-      - /var/log/.log
+      - /var/log/nginx/accesslog
 {% else %}
       - /var/log/{{COMPONENT}}.log
 {% if OUTPUT_TO == "elasticsearch" %}
