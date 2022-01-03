@@ -41,6 +41,6 @@
   include_role:
     name: common
     tasks_from: filebeat
-    vars: 
-      OUTPUT_TO: logstash
+  vars:
+    OUTPUT_TO: logstash
     
