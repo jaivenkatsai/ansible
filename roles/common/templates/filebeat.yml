@@ -11,7 +11,7 @@ setup.template.pattern: "{{COMPONENT}}-*"
 setup.ilm.enabled: false
 
 
-output.{{OUTPUT_TO}}:
+output.elasticsearch:
   hosts: ["elasticsearch.roboshop.internal:9200"]
   index: "{{COMPONENT}}-%{+yyyy.MM.dd}"
 {% endif %}
