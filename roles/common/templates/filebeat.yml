@@ -10,7 +10,7 @@ setup.template.pattern: "{{COMPONENT}}-*"
 setup.ilm.enabled: false
 
 output.elasticsearch:
-  hosts: ["elasticsearch.roboshop.internal:9200"]
+  hosts: ["elasticsearch.roboshop.internal:9200"] elasticsearch.ro
   index: "{{COMPONENT}}-%{+yyyy.MM.dd}"
 
 ### Default Configuration
