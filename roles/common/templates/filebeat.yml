@@ -5,7 +5,7 @@ filebeat.inputs:
     paths:
       - /var/log/{{COMPONENT}}.log
 
-{% if OUTPUT_TO}
+{% if OUTPUT_TO ==}
 
 setup.template.name: "{{COMPONENT}}"
 setup.template.pattern: "{{COMPONENT}}-*"
