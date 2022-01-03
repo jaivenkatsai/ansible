@@ -37,7 +37,7 @@
     name: common
     tasks_from: node-exporter
 
-- name: Include 
+- name: Include Filebeat
   include_role:
     name: common
     tasks_from: node-exporter
