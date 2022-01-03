@@ -10,7 +10,7 @@ setip.template.pattern: "{{COMPONENT}}-*"
 
 output.elasticsearch:
   hosts: ["elasticsearch.roboshop.internal:9200"]
-  index: "{{COMPONENT}}-%{}"
+  index: "{{COMPONENT}}-%{+}"
 
 ### Default Configuration
 filebeat.config.modules:
