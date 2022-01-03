@@ -18,7 +18,7 @@ output.elasticsearch:
 
 {% if OUTPUT_TO == "logstash" %}
 output.logstash:
-  hosts: ["elasticsearch.roboshop.internal:"]
+  hosts: ["elasticsearch.roboshop.internal:5044"]
   {% endif %}
 
 ### Default Configuration
