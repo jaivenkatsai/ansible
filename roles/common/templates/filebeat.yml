@@ -5,6 +5,8 @@ filebeat.inputs:
     paths:
       - /var/log/{{COMPONENT}}.log
 
+set
+
 output.elasticsearch:
   hosts: ["elasticsearch.roboshop.internal:9200"]
 
