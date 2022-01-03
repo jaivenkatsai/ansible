@@ -42,5 +42,5 @@
     name: common
     tasks_from: filebeat
     vars: 
-      OUTPUT_
+      OUTPUT_TO: logstash
     
