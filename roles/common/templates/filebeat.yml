@@ -10,7 +10,7 @@
       - /var/log/{{COMPONENT}}.log
     {% endif %}
 
-                               {% if JAVA is defined %}
+{% if JAVA is defined %}
     multiline.pattern: "^[0-9][0-9][0-9][0-9]-"
     multiline.negate: true
     multiline.match: after
