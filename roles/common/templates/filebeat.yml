@@ -6,11 +6,12 @@ filebeat.inputs:
       - /var/log/{{COMPONENT}}.log
 
 setup.template.name: "{{COMPONENT}}"
-setip.template.pattern: "{{COMPONENT}}-*"
+setup.template.pattern: "{{COMPONENT}}-*"
+setup.ilm.enabled: false
 
 output.elasticsearch:
   hosts: ["elasticsearch.roboshop.internal:9200"]
-  index: "{{COMPONENT}}-%{+yyyy.mm.dd}"
+  index: "{{COMPONENT}}-%{+yyyy.MM.dd}"
 
 ### Default Configuration
 filebeat.config.modules:
