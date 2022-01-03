@@ -6,7 +6,7 @@ filebeat.inputs:
       - /var/log/{{COMPONENT}}.log
 
 setup.template.name: "{{COMPONENT}}"
-setip.template.pattern: "{{COMPON}}"
+setip.template.pattern: "{{COMPONENT}}-"
 
 output.elasticsearch:
   hosts: ["elasticsearch.roboshop.internal:9200"]
