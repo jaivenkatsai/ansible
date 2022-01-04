@@ -8,7 +8,7 @@
   - /var/log/nginx/access.log
     {% else %}
       - /var/log/{{COMPONENT}}.log
-{% endif %}
+    {% endif %}
 
 {% if OUTPUT_TO == "elasticsearch" %}
     json.keys_under_root: true
