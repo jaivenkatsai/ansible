@@ -18,8 +18,6 @@
 
 - name:  Download
   include_tasks: download.yml
-  vars:
-    APP_PATH: /home/roboshop/{{COMPONENT}}
 
 - name: Install NodeJS Dependencies
   community.general.npm:
