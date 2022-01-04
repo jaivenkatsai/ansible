@@ -1,8 +1,6 @@
 filebeat.inputs:
   - type: log
     enabled: true
-    fields:
-      appName: {{COMPONENT}}
     paths:
 {% if NGINX is defined %}
       - /var/log/nginx/access.log
@@ -41,4 +39,4 @@ processors:
       when.not.contains.tags: forwarded
   - add_cloud_metadata: ~
   - add_docker_metadata: ~
-  - add_kubernetes_metadata: ~ 
+  - add_kubernetes_metadata: ~
