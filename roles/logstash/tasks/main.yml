@@ -1,4 +1,4 @@
-- name: COpy Logstash Config
+- name: Copy Logstash Config
   copy:
     src: logstash.conf
     dest: /etc/logstash/conf.d/logstash.conf
@@ -24,4 +24,4 @@
     port: 5044
     delay: 15
     state: started
-    timeout: 180
+    timeout: 190
