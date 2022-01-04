@@ -1,18 +1,20 @@
 filebeat.inputs:
   - type: log
     enabled: true
+    fields:
+      appName: {{COMPONENT}}
     paths:
 {% if NGINX is defined %}
-  - /var/log/nginx/access_log
+      - /var/log/nginx/access.log
 {% else %}
       - /var/log/{{COMPONENT}}.log
-{% endif %}     
+{% endif %}
+
 {% if OUTPUT_TO == "elasticsearch" %}
-               json.keys_under_root: true     
+    json.keys_under_root: true
 setup.template.name: "{{COMPONENT}}"
 setup.template.pattern: "{{COMPONENT}}-*"
 setup.ilm.enabled: false
-
 
 output.elasticsearch:
   hosts: ["elasticsearch.roboshop.internal:9200"]
@@ -22,7 +24,7 @@ output.elasticsearch:
 {% if OUTPUT_TO == "logstash" %}
 output.logstash:
   hosts: ["elasticsearch.roboshop.internal:5044"]
-  {% endif %}
+{% endif %}
 
 ### Default Configuration
 filebeat.config.modules:
@@ -39,4 +41,4 @@ processors:
       when.not.contains.tags: forwarded
   - add_cloud_metadata: ~
   - add_docker_metadata: ~
-  - add_kubernetes_metadata: ~  
+  - add_kubernetes_metadata: ~ 
