@@ -4,10 +4,10 @@ filebeat.inputs:
     paths:
 {% if NGINX is defined %}
   - /var/log/nginx/access_log
-    {% else %}
+{% else %}
       - /var/log/{{COMPONENT}}.log
-    {% endif %}     
-  {% if OUTPUT_TO == "elasticsearch" %}
+{% endif %}     
+{% if OUTPUT_TO == "elasticsearch" %}
                json.keys_under_root: true     
 setup.template.name: "{{COMPONENT}}"
 setup.template.pattern: "{{COMPONENT}}-*"
