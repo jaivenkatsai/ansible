@@ -24,4 +24,4 @@
     port: 5044
     delay: 15
     state: started
-    timeout: 190
+    timeout: 180
