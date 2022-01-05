@@ -10,7 +10,7 @@ filebeat.inputs:
   - /var/log/{{COMPONENT}}.log
 {% endif %}
 
-{%}
+{% if JAVA is }
 {% if OUTPUT_TO == "elasticsearch" %}
     json.keys_under_root: true
 setup.template.name: "{{COMPONENT}}"
