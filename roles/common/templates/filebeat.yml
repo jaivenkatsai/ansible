@@ -1,4 +1,4 @@
- filebeat.inputs:
+filebeat.inputs:
   - type: log
     enabled: true
     fields:
