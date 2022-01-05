@@ -36,4 +36,8 @@
 - name: Node Exporter
   include_tasks: node-exporter.yml
 
+- name: Filebeat Setup
+  include_tasks: filebeat.yml
+  vars:
+    OUTPUT_TO: logstash
 
