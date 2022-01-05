@@ -11,6 +11,7 @@ filebeat.inputs:
 {% endif %}
 
 {% if JAVA is defined %}
+    
 {% if OUTPUT_TO == "elasticsearch" %}
     json.keys_under_root: true
 setup.template.name: "{{COMPONENT}}"
