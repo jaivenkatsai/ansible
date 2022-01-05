@@ -10,7 +10,7 @@
       - /var/log/{{COMPONENT}}.log
     {% endif %}
 
-{% if OUTPUT_TO == "elasticsearch" %
+{% if OUTPUT_TO == "elasticsearch" %}
     json.keys_under_root: true
 setup.template.name: "{{COMPONENT}}"
 setup.template.pattern: "{{COMPONENT}}-*"
