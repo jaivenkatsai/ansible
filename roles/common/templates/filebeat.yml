@@ -17,7 +17,7 @@ filebeat.inputs:
 {% endif %}
 
 {% if COMPONENT == "payment" %}
-     include
+     include_stamp: 
 {% endif %}
 
 {% if OUTPUT_TO == "elasticsearch" %}
