@@ -16,7 +16,7 @@ filebeat.inputs:
     multiline.match: after
 {% endif %}
 
-{% if COMPONENT == is defined %}
+{% if COMPONENT == "" %}
 
 {% if OUTPUT_TO == "elasticsearch" %}
     json.keys_under_root: true
