@@ -1,27 +1,10 @@
 - name: Update Prometheus Config
   template:
-    src: "{{item}}.yml"
-    dest: /opt/prometheus/{{item}}.yml
-  loop:
-    - prometheus
-    - alerts
-    - records
+    src: prometheus.yml
+    dest: /opt/prometheus/prometheus.yml
 
 - name: Restart Prometheus Service
   systemd:
     name: prometheus
-    state: restarted
-    enabled: yes
-
-- name: Update AlertManager Config
-  template:
-    src: "{{item}}.yml"
-    dest: /opt/alertmanager/{{item}}.yml
-  loop:
-    - alertmanager
-
-- name: Restart AlertManager Service
-  systemd:
-    name: alertmanager
     state: restarted
     enabled: yes
