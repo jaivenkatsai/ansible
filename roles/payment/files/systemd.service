@@ -15,4 +15,4 @@ ExecStart=/usr/local/bin/uwsgi --ini payment.ini
 SyslogIdentifier=payment
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.target 
