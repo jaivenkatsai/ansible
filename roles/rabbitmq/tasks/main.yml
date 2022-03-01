@@ -5,6 +5,7 @@
 - name: Setup YUM repos
   copy: 
     src: rabbitmq.repo
+    dest: 
    
 - name: Install RabbitMQ Server
   yum: 
